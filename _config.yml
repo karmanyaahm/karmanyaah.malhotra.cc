@@ -2,6 +2,12 @@ collections:
   activities:
     output: true
 
+theme: jekyll-theme-hacker
+title: "Karmanyaah Malhotra"
+description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
+google_analytics: "UA-103015933-2"
+
+
 defaults:
   - scope:
       path: ""
@@ -37,7 +43,7 @@ plugins:
 
 lsi: false
 safe: true
-source: [your repo's top level directory]
+#source: [your repo's top level directory]
 incremental: false
 highlighter: rouge
 gist:
