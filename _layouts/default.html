@@ -1,16 +1,21 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
+
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>{{ page.title }}</title>
     {% include headjs.html %}
-  </head>
-  <body>
+    {% seo %}
+</head>
+
+<body>
     {% include navigation.html %}
     {{ content }}
-  </body>
-  <script>
+</body>
+<script>
     new Darkmode().showWidget();
-  </script>
+</script>
+
 </html>
