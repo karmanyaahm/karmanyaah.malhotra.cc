@@ -1,0 +1,14 @@
+---
+title: Activities
+---
+<h1>Activities</h1>
+
+<ul>
+  {% for activity in site.activities %}
+    <li>
+        <h2><a href="{{ activity.url }}">{{ activity.name }}</a></h2>
+      <h3>{{ activity.position }}</h3>
+      <p>{{ activity.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
