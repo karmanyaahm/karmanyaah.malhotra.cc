@@ -2,6 +2,8 @@ collections:
   activities:
     output: true
 
+host: 0.0.0.0
+
 theme: jekyll-theme-hacker
 title: "Karmanyaah Malhotra"
 description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
