@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Intro to jerkyll</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=85300a0c5fa68c5a180b453e4e161992bde4d0eb"></li>
+    <!--<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.3/lib/darkmode-js.min.js" ></script>-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Intro to jerkyll | Karmanyaah Malhotra</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Intro to jerkyll" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Got started with jekyll for my site today" />
+<meta property="og:description" content="Got started with jekyll for my site today" />
+<link rel="canonical" href="http://0.0.0.0:4000/2019/12/21/intro-to-jerkyll.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/2019/12/21/intro-to-jerkyll.html" />
+<meta property="og:site_name" content="Karmanyaah Malhotra" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-21T00:00:00-05:00" />
+<script type="application/ld+json">
+{"dateModified":"2019-12-21T00:00:00-05:00","datePublished":"2019-12-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/2019/12/21/intro-to-jerkyll.html"},"description":"Got started with jekyll for my site today","@type":"BlogPosting","url":"http://0.0.0.0:4000/2019/12/21/intro-to-jerkyll.html","headline":"Intro to jerkyll","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+        <header>
+    <h1>Karmanyaah Malhotra</h1>
+    <div class="container">
+     <style>
+.side-menu-wrapper { /* style menu wrapper */
+	background: rgba(0,0,0,.95);
+	padding: 40px 0 0 40px;
+	position: fixed; /* Fixed position */
+	top: 0;
+	right: 0; /* Sidebar initial position. "right" for right positioned menu */
+	height: 100%;
+	z-index: 2;
+	transition: 0.5s; /* CSS transition speed */
+	width: 250px;
+	font: 20px "Courier New", Courier, monospace;
+	box-sizing: border-box;
+}
+.side-menu-wrapper > ul{ /* css ul list style */
+	list-style:none;
+	padding:0;
+	margin:0;
+    overflow-y: auto; /* enable scroll for menu items */
+	height:95%;
+}
+.side-menu-wrapper > ul > li > a { /* links */
+    display: block;
+    border-bottom: 1px solid #131313;
+    padding: 6px 4px 6px 4px;
+    color: #989898;
+    transition: 0.3s;
+	text-decoration: none;
+}
+.side-menu-wrapper > a.menu-close { /* close button */
+    padding: 8px 0 4px 23px;
+    color: #6B6B6B;
+    display: block;
+    margin: -30px 0 -10px -20px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.menu-overlay { /* overlay */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.hamburger{
+    max-width: 50px;
+    position: absolute;
+    right: 5px;
+}
+</style>
+
+<div class="menu-overlay"></div>
+<a href="#" class="menu-open"><img class="hamburger" src="/assets/images/Hamburger_icon.png"></img></a>
+
+<div class="side-menu-wrapper">
+    <a href="#" class="menu-close">×</a>
+   <ul>
+    
+    <li></li><a href="/" >Home</a></li>
+    
+    <li></li><a href="/about.html" >About</a></li>
+    
+    <li></li><a href="/blog.html" >Blog</a></li>
+    
+    <li></li><a href="/activities.html" >Activities</a></li>
+    
+</ul>
+</div>
+
+
+
+<script>
+var slide_wrp 		= ".side-menu-wrapper"; //Menu Wrapper
+var open_button 	= ".menu-open"; //Menu Open Button
+var close_button 	= ".menu-close"; //Menu Close Button
+var overlay 		= ".menu-overlay"; //Overlay
+
+//Initial menu position
+$(slide_wrp).hide().css( {"right": -$(slide_wrp).outerWidth()+'px'}).delay(50).queue(function(){$(slide_wrp).show()}); 
+
+$(open_button).click(function(e){ //On menu open button click
+	e.preventDefault();
+	$(slide_wrp).css( {"right": "0px"}); //move menu right position to 0
+	setTimeout(function(){
+		$(slide_wrp).addClass('active'); //add active class
+	},50);
+	$(overlay).css({"opacity":"1", "width":"100%"});
+});
+
+$(close_button).click(function(e){ //on menu close button click
+	e.preventDefault();
+	$(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}); //hide menu by setting right position 
+	setTimeout(function(){
+		$(slide_wrp).removeClass('active'); // remove active class
+	},50);
+	$(overlay).css({"opacity":"0", "width":"0"});
+});
+
+$(document).on('click', function(e) { //Hide menu when clicked outside menu area
+	if (!e.target.closest(slide_wrp) && $(slide_wrp).hasClass("active")){ // check menu condition
+		$(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}).removeClass('active');
+		$(overlay).css({"opacity":"0", "width":"0"});
+	}
+});
+</script>   
+        <a id="a-title" href="/">
+          <h1>Karmanyaah Malhotra</h1>
+        </a>
+        <h2>This is my personal website for experimentation and having a profile that I maintain on the WWW.</h2>
+
+        <!--section id="downloads">
+          
+          <a href="https://github.com/karmanyaahm/karmanyaahm.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section-->
+      </div>
+</header>
+
+        <div class="container">
+            <section id="main_content">
+              <h1>Intro to jerkyll</h1>
+
+<p>21 Dec 2019
+
+
+  - <a href="/activities/bisoncs.html">Beachwood High School Computer Security Club</a>
+
+</p>
+<p>Got started with jekyll for my site today</p>
+
+<p>Jekyll(super awesome should check out) wants me to put</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.
+
+In some countries, bananas used for cooking may be called "plantains",
+distinguishing them from dessert bananas. The fruit is variable in size, color,
+and firmness, but is usually elongated and curved, with soft flesh rich in
+starch covered with a rind, which may be green, yellow, red, purple, or brown
+when ripe.
+</code></pre></div></div>
+
+            </section>
+          </div>
+</body>
+<!--<script>
+    new Darkmode().showWidget();
+</script>-->
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-103015933-2', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+</html>
