@@ -1,4 +1,5 @@
 
-_site/sitemap.xml
-_site/activities/scioly.html
-_site/activities/bisoncs.html
+_site
+/_site
+.vscode
+/.vscode
