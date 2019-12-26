@@ -4,3 +4,5 @@ _site
 .vscode
 /.vscode
 
+/.jekyll-metadata
+./.jekyll-metadata
