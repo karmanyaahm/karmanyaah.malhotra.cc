@@ -85,6 +85,7 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
         word-wrap: none;
         overflow: hidden;
         white-space: nowrap;
+        
         ul {
           padding: 0;
           margin: 0;
@@ -98,13 +99,17 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             float: right;
             cursor: pointer;
             max-width: 60%;
+            
             .title {
               font-weight: 450;
+              img{
+                max-height: 4mm;
+              }
             }
             .owner {
               font-weight: 200;
             }
-          }
+          
           .header_btn {
             display: inline-block;
             .btn_text {
@@ -129,6 +134,7 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
         }
       }
     }
+  }
     .div_article {
       top: 34px;
       position: relative;
@@ -446,6 +452,8 @@ body {
     .header .nav_bar ul {
       .title {
         font-size: 80%;
+      
+      
       }
       .owner {
         font-size: 0;

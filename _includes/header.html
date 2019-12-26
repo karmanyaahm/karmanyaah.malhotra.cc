@@ -1,5 +1,6 @@
 <div class="header">
     <nav class="nav_bar">
+        
         <ul>
             <!-- left header -->
             <li
@@ -57,8 +58,7 @@
                 {% endif %}
             </li>
             <!-- right header -->
-            <span
-                class="span_right">
+            <span class="span_right">
                 <!-- popup table of content -->
                 {% if page.toc != false %}
                     <a class="header_btn" onclick="scroll_percentage(-0.88)">
@@ -85,7 +85,7 @@
                         </i>
                     </a>
                 {% else site.title %}
-                    <a class="title">{{ site.title }}</a>
+                    <a class="title"><img class="titleimg" alt="logo" src="/assets/img/logo/isolated-layout.png"></a>
                     {% if site.owner != ""%}
                         <a class="owner">
                             -
