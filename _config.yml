@@ -4,7 +4,7 @@ collections:
 
 host: 0.0.0.0
 
-#theme: jekyll-theme-hacker
+theme: jekyll-theme-hacker
 title: "Karmanyaah Malhotra"
 description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
 google_analytics: "UA-103015933-2"
@@ -52,6 +52,7 @@ gist:
   noscript: false
 kramdown:
   math_engine: mathjax
+<<<<<<< HEAD
   syntax_highlighter: rouge
 
 
@@ -72,3 +73,6 @@ statement: "All Rights Reserved?"
 toc_level: 6
 # texts randomly displayed in background
 bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
+=======
+  syntax_highlighter: rouge
+>>>>>>> parent of e32c403... basic switching themes

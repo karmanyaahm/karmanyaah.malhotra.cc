@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 <div class="header">
     <nav class="nav_bar">
-        
         <ul>
             <!-- left header -->
             <li
@@ -59,7 +57,8 @@
                 {% endif %}
             </li>
             <!-- right header -->
-            <span class="span_right">
+            <span
+                class="span_right">
                 <!-- popup table of content -->
                 {% if page.toc != false %}
                     <a class="header_btn" onclick="scroll_percentage(-0.88)">
@@ -86,7 +85,7 @@
                         </i>
                     </a>
                 {% else site.title %}
-                    <a class="title"><img class="titleimg" alt="logo" src="/assets/img/logo/isolated-layout.png"></a>
+                    <a class="title">{{ site.title }}</a>
                     {% if site.owner != ""%}
                         <a class="owner">
                             -
@@ -192,22 +191,3 @@
   }
 </script>
 {% endif %}
-=======
-<header>
-    <div class="container">
-     {% include navigation.html %}   
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        <!--section id="downloads">
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section-->
-      </div>
-</header>
->>>>>>> parent of e32c403... basic switching themes
