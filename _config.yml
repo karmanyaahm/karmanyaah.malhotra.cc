@@ -2,7 +2,7 @@ collections:
   activities:
     output: true
 
-host: 0.0.0.0
+host: 192.168.0.199
 
 #theme: jekyll-theme-hacker
 title: "Karmanyaah Malhotra"
