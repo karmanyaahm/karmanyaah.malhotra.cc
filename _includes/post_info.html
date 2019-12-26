@@ -5,6 +5,10 @@
     <i class="fa fa-user-secret"></i>
     {{ page.author }}
   </span>
+  {% assign activity = site.activities | where: 'short_name', page.activity | first %}
+{% if activity %}
+  - <a href="{{ activity.url }}">{{ activity.name }}</a>
+{% endif %}
   {% endif %}
   <!-- date -->
   {% if page.date %}
