@@ -1,12 +1,9 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
 
-<p>{{ page.date | date_to_string }}
-{% assign activity = site.activities | where: 'short_name', page.activity | first %}
-{% if activity %}
-  - <a href="{{ activity.url }}">{{ activity.name }}</a>
-{% endif %}
-</p>
+<h1>
+  {{ page.title }}
+</h1>
+{% include post_info.html %}
 {{ content }}

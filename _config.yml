@@ -2,9 +2,9 @@ collections:
   activities:
     output: true
 
-host: 0.0.0.0
+#host: 192.168.0.199
 
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
 title: "Karmanyaah Malhotra"
 description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
 google_analytics: "UA-103015933-2"
@@ -53,3 +53,22 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+
+## Settings
+owner: "Karmanyaah Malhotra"
+url: "http://karmanyaah.me"
+baseurl: ""
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+## Global Variables
+email: "karmanyaahm@gmail.com"
+github: "karmanyaahm/karmanyaahm.github.io"
+# path to: css/, fonts/, img/ and js/
+assets_path: "/assets" # i.e. "/assets" 
+statement: "All Rights Reserved?"
+# default max toc levels: 1 - 6 (h1 - h6)
+toc_level: 6
+# texts randomly displayed in background
+bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
