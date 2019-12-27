@@ -57,7 +57,7 @@ kramdown:
 
 ## Settings
 owner: "Karmanyaah Malhotra"
-url: "http://karmanyaah.me"
+url: "http://www.karmanyaah.me"
 baseurl: ""
 webrick:
   headers:
