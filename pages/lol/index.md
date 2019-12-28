@@ -1,5 +1,7 @@
 ---
 permalink: /lol
+layout: lol
+title: lol
 ---
 <script>
 text = new SpeechSynthesisUtterance("LOLOLOLOLOLOLOLOL");
