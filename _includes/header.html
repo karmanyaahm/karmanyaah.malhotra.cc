@@ -85,9 +85,9 @@
                         </i>
                     </a>
                 {% else site.title %}
-                    <a href="{% link pages/about.md %} " class="owner"><span class="title"><img class="titleimg" alt="logo" src="/assets/img/logo/isolated-layout.png"></span>
+                    <a href="{% link pages/about.md %} " class="owner"><span class="title"><img alt="logo" src="/assets/img/logo/isolated-layout.png"><b>(About Me)</b></span>
                     {% if site.owner != ""%}
-                            {{ site.owner }}<b>(About Me)</b>
+                            {{ site.owner }}
                     {% endif %}
                 </a>{% endif %}
             </span>
