@@ -54,7 +54,8 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-
+destination: ../_site
+keep_files: [".git",".gitignore"]
 ## Settings
 owner: "Karmanyaah Malhotra"
 url: ""
