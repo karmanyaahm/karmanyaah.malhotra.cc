@@ -4,16 +4,16 @@
 .page .container { overflow: none; top: 2%; margin: 0 auto; height: 97%; width: 84%; max-width: 1240px; position: relative; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.72); list-style-position: inside; }
 .page .container .header { position: absolute; text-align: center; width: 100%; height: 33px; border: 1px solid #34a507; border-bottom: none; }
 .page .container .header .nav_bar { text-align: left; display: block; list-style: none; padding: 6px 12px; word-wrap: none; overflow: hidden; white-space: nowrap; }
-.page .container .header .nav_bar ul { padding: 0; margin: 0; font-size: 88%; }
-.page .container .header .nav_bar ul .li_left { list-style: none; display: inline-block; cursor: pointer; }
-.page .container .header .nav_bar ul .span_right { list-style: none; float: right; cursor: pointer; max-width: 60%; }
-.page .container .header .nav_bar ul .span_right .title { font-weight: 450; }
-.page .container .header .nav_bar ul .span_right .title img { max-height: 4mm; }
-.page .container .header .nav_bar ul .span_right .owner { font-weight: 200; }
-.page .container .header .nav_bar ul .header_btn { display: inline-block; }
-.page .container .header .nav_bar ul .header_btn .btn_text { font-style: normal; margin: 0; display: inline-block; text-transform: capitalize; font-family: "Fira Code", "Source Code Pro", "Fira Code Online", "Source-Han-Sans-Medium", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", Helvetica, Tahoma, Arial, sans-serif; font-size: 88%; }
-.page .container .header .nav_bar ul .header_btn .btn_text:hover { font-weight: 400; text-decoration: underline; }
-.page .container .header .nav_bar ul .access_token { resize: none; float: right; display: inline-flexbox; margin: 0px 5px; }
+.page .container .header .nav_bar span { padding: 0; margin: 0; font-size: 88%; }
+.page .container .header .nav_bar span .li_left { list-style: none; display: inline-block; cursor: pointer; }
+.page .container .header .nav_bar span .span_right { float: right; cursor: pointer; max-width: 60%; }
+.page .container .header .nav_bar span .span_right .title { font-weight: 450; }
+.page .container .header .nav_bar span .span_right .title img { max-height: 4mm; }
+.page .container .header .nav_bar span .span_right .owner { font-weight: 200; }
+.page .container .header .nav_bar span .header_btn { display: inline-block; }
+.page .container .header .nav_bar span .header_btn .btn_text { font-style: normal; margin: 0; display: inline-block; text-transform: capitalize; font-family: "Fira Code", "Source Code Pro", "Fira Code Online", "Source-Han-Sans-Medium", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", Helvetica, Tahoma, Arial, sans-serif; font-size: 88%; }
+.page .container .header .nav_bar span .header_btn .btn_text:hover { font-weight: 400; text-decoration: underline; }
+.page .container .header .nav_bar span .access_token { resize: none; float: right; display: inline-flexbox; margin: 0px 5px; height: 18px; }
 .page .container .div_article { top: 34px; position: relative; height: 95%; width: 100%; overflow-y: auto; overflow-x: hidden; border: 1px solid #34a507; border-top: none; }
 .page .container .div_article .post_info { text-align: center; padding: 0 50px; font-size: 88%; }
 .page .container .div_article .abstract { padding: 20px 20px; }
