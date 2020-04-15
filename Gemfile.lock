@@ -247,7 +247,7 @@ DEPENDENCIES
   jekyll
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-webp
+  jekyll-webp (~> 1.0)
 
 BUNDLED WITH
    2.1.2
