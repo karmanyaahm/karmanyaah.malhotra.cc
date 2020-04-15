@@ -85,10 +85,7 @@
                 </a>
                 {% else site.title %}
                 <a href="{% link pages/about.md %} " class="owner"><span class="title">
-                        <picture>
-                            <source srcset="/assets/img/logo/isolated-layout.webp" type="image/webp">
-                            <img alt="" src="/assets/img/logo/isolated-layout.png">
-                        </picture><b>(About Me)</b>
+                        {% picture "/assets/img/logo/isolated-layout.png" %}<b>(About Me)</b>
                     </span>
                     {% if site.owner != ""%}
                     {{ site.owner }}
