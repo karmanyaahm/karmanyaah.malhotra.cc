@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://www.karmanyaah.me/sitemap.xml
