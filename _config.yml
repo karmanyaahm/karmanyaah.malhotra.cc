@@ -26,6 +26,7 @@ defaults:
     values:
       layout: "default"
 
+url: "https://www.karmanyaah.me" #for sitemap
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -58,8 +59,8 @@ destination: ../_site
 keep_files: [".git",".gitignore"]
 ## Settings
 owner: "Karmanyaah Malhotra"
-url: ""
-baseurl: ""
+
+baseurl: "/"
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
@@ -67,7 +68,7 @@ webrick:
 email: "karmanyaahm@gmail.com"
 github: "karmanyaahm/karmanyaahm.github.io"
 # path to: css/, fonts/, img/ and js/
-assets_path: "/assets" # i.e. "/assets" 
+assets_path: "assets" # i.e. "/assets" 
 statement: "All Rights Reserved?"
 # default max toc levels: 1 - 6 (h1 - h6)
 toc_level: 6
@@ -75,3 +76,5 @@ toc_level: 6
 bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
 
 
+##########Possible bugs
+#list of articles.html > using site.url

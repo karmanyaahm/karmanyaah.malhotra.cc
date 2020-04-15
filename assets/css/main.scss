@@ -14,20 +14,8 @@ $image-background: none;
   font-family: "Fira Code Online";
   src: url("../fonts/FiraCode-Regular.woff");
 }
-$font-family: 
-"Fira Code", 
-"Source Code Pro", 
-"Fira Code Online", 
-"Source-Han-Sans-Medium", 
-"PingFang SC",
-"Hiragino Sans GB", 
-"Heiti SC", 
-"Microsoft YaHei", 
-"WenQuanYi Micro Hei",
-Helvetica, 
-Tahoma, 
-Arial,
-sans-serif;
+$font-family: "Fira Code", "Source Code Pro", "Fira Code Online", "Source-Han-Sans-Medium", "PingFang SC",
+  "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", Helvetica, Tahoma, Arial, sans-serif;
 $font-size-h1: 23px;
 $font-size-h2: 23px;
 $font-size-h3: 21px;
@@ -86,7 +74,7 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
         word-wrap: none;
         overflow: hidden;
         white-space: nowrap;
-        ul {
+        span {
           padding: 0;
           margin: 0;
           font-size: $font-smaller;
@@ -96,12 +84,13 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             cursor: pointer;
           }
           .span_right {
+            //list-style: none;
             float: right;
             cursor: pointer;
             max-width: 60%;
             .title {
               font-weight: 450;
-              img{
+              img {
                 max-height: 4mm;
               }
             }
@@ -129,6 +118,7 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             float: right;
             display: inline-flexbox;
             margin: 0px 5px;
+            height: 18px;
           }
         }
       }
