@@ -30,28 +30,22 @@ title: Karmanyaahm
 
 1. [Github](https://github.com/karmanyaahm)
 2. Beachwood High School
-
    1. Computer Security Club
-
       - Sep 2019 -
       - YouTube <https://www.youtube.com/channel/UCgYgYy_LWyq8-M3JVvRA47Q>
       - Github <https://github.com/Beachwood-High-School>
       - Website coming soon
-
    2. [Science Olympiad](https://www.soinc.org/)
-
       - 2020 -
       - Not updated since 2018(as of writing this) <http://bscioly.weebly.com/>
       - Not updated since 2012(as of writing this) <https://sites.google.com/site/bscioly/>
       - Not updated in I don't know how long(as of writing this) <https://scioly.org/wiki/index.php/Beachwood_High_School>
-
    3. [First Robotics Competition](https://www.firstinspires.org/robotics/frc)
       - Sep 2019 -
       - Bison Robotics (Team 695)
       - <https://frc-events.firstinspires.org/2020/team/695>
       - <https://www.thebluealliance.com/team/695>
       - <https://github.com/FRCTeam695>
-
 3. Beachwood Middle School
    1. Science Olympiad
       - Sep 2018 - March 2020
