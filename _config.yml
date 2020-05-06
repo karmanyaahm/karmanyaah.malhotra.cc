@@ -9,7 +9,6 @@ title: "Karmanyaah Malhotra"
 description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
 google_analytics: "UA-103015933-2"
 
-
 defaults:
   - scope:
       path: ""
@@ -31,18 +30,16 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-
 #    github default
- #   jekyll-coffeescript
-  #  jekyll-default-layout
-   # jekyll-gist
+#   jekyll-coffeescript
+#  jekyll-default-layout
+# jekyll-gist
 #    jekyll-github-metadata
- #   jekyll-optional-front-matter
-  #  jekyll-paginate
-   # jekyll-readme-index
+#   jekyll-optional-front-matter
+#  jekyll-paginate
+# jekyll-readme-index
 #    jekyll-titles-from-headings
- #   jekyll-relative-links
-
+#   jekyll-relative-links
 
 lsi: false
 safe: true
@@ -56,7 +53,7 @@ kramdown:
   syntax_highlighter: rouge
 
 destination: ../_site
-keep_files: [".git",".gitignore"]
+keep_files: [".git", ".gitignore"]
 ## Settings
 owner: "Karmanyaah Malhotra"
 
@@ -65,16 +62,14 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
-email: "karmanyaahm@gmail.com"
+email: ""
 github: "karmanyaahm/karmanyaahm.github.io"
 # path to: css/, fonts/, img/ and js/
-assets_path: "assets" # i.e. "/assets" 
+assets_path: "assets" # i.e. "/assets"
 statement: "All Rights Reserved?"
 # default max toc levels: 1 - 6 (h1 - h6)
 toc_level: 6
 # texts randomly displayed in background
 bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
-
-
 ##########Possible bugs
 #list of articles.html > using site.url
