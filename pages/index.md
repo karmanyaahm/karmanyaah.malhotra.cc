@@ -15,7 +15,7 @@ title: Karmanyaahm
 
 ## My profile on the WWW
 
-1. [Keybase](https://keybase.io/karmanyaahm>): Verify my identity
+1. [Keybase](https://keybase.io/karmanyaahm>): Keybase now owned by Zoom (I'm working on getting rid of it)
 2. GitHub (https://github.com/karmanyaahm): All my code creations
 3. PGP Key: 4AF6 79D0 ABA0 ED4B 07BF 7B69 32CA 3267 C8D1 87D7
    - 4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7 same thing without spaces
