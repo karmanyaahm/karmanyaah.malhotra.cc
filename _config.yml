@@ -7,7 +7,7 @@ host: 192.168.0.199
 #theme: jekyll-theme-hacker
 title: "Karmanyaah Malhotra"
 description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
-google_analytics: "UA-103015933-2"
+google_analytics: false
 
 defaults:
   - scope:

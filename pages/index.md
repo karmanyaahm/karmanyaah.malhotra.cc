@@ -34,8 +34,9 @@ title: Karmanyaahm
 2. Beachwood High School
    1. Computer Security Club
       - Sep 2019 -
-      - YouTube <https://www.youtube.com/channel/UCgYgYy_LWyq8-M3JVvRA47Q>
-      - Github <https://github.com/Beachwood-High-School>
+      - [YouTube](https://www.youtube.com/channel/UCgYgYy_LWyq8-M3JVvRA47Q)
+        - Also on [LBRY](https://open.lbry.com/@bhsComputerSecurity:c?r=Ac8wgDtgRUsEEL5YXavpfVZxidHbPTmC)
+      - [Github](https://github.com/Beachwood-High-School)
       - Website coming soon
    2. [Science Olympiad](https://www.soinc.org/)
       - 2020 -
@@ -65,4 +66,4 @@ Progress as a timeline
     3. karmaths@reddit kex1xe8c4r4rsxezetv9j6d9tns6vqmw5kncrnh7p77sz3f07fje7t0s537xyh
     4. Cannot verify website because it's hosted on GitHub Pages
 
-Information last updated 5/9/2020
+Information last updated 5/15/2020
