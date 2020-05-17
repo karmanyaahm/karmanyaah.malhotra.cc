@@ -96,10 +96,12 @@
                     </i>
                 </a>
                 {% else site.title %}
+                {% if site.aboutmeenable %}
                 <a href="{% link pages/about.md %} " class="owner"><span class="title">
-                        {% picture "/assets/img/logo/isolated-layout.png" --alt a lock that looks dead for a logo %}<b>(About
+                        {% picture "/assets/img/logo/isolated-layout.png" --alt a lock that has a dead face for a logo %}<b>(About
                             Me)</b>
                     </span>
+                    {% endif %}
                     {% if site.owner != ""%}
                     {{ site.owner }}
                     {% endif %}

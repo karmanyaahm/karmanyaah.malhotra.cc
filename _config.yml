@@ -63,6 +63,7 @@ webrick:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
 email: ""
+aboutmeenable: false
 github: "karmanyaahm/karmanyaahm.github.io"
 # path to: css/, fonts/, img/ and js/
 assets_path: "assets" # i.e. "/assets"
