@@ -1,0 +1,15 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+I, Karmanyaah Malhotra (4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7) verify that I own the website at https://www.karmanyaah.me/ as of this signing at 5/16/2020 10:47 PM.
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEXQ4FmMlvaR4ZOv1nvo3FBnUn1vYFAl7ApiUACgkQvo3FBnUn
+1vZaswf/SmqKCHFOANF6HGS7rGtMNXhyQ4pKdHhH2XWKgTfx820w00pj2Puic3e3
+ZpLHtgWu+kk930O0h37PEtuDAn7WGzPIWbgGdk/FxstSWrAFAVxuQDh6+Nsm0teM
+MZkTbhwuLvgp8lUuVq5USRdIqUKBGf1VJBF2ZuMPpYLycyKxUvEQchVSvr0I4kAT
+31ycOawhWzmrTivHDIRCLHszBVf2cuOoAAG5jnIsZFgrm81ffd+SiJL8xcpGw2Wo
+ECNd7t8Q29LUOm1yejVSwg6If4ycpamIv/Db+ngxjxlB8Iv6qRqtRKEwI4mbDTPK
+ePCpm+8WGfek8lc6Pf1Argdz1P/kGw==
+=7Il4
+-----END PGP SIGNATURE-----

@@ -21,15 +21,77 @@
   <!-- main stylesheet -->
   <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
   <!-- fa 5.9.0 -->
-  <link rel="stylesheet" href="/assets/css/fa.min.css" type="text/css" />
+  <!-- critical fa.min thing -->
+  <style>
+    @font-face {
+      font-family: "FontAwesome";
+      src: url("assets/fonts/fontawesome-webfont.eot?v=4.7.0");
+      src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),
+        url("assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+        url("assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+        url("assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+        url("assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+
+    @-webkit-keyframes fa-spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+      }
+    }
+
+    @keyframes fa-spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+      }
+    }
+
+    .fa {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale
+    }
+
+    .fa-github:before {
+      content: "\f09b"
+    }
+
+    .fa-window-maximize:before {
+      content: "\f2d0";
+    }
+  </style>
+  <link rel="preload" as="style" href="/assets/css/fa.min.css"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/fa.min.css"></noscript>
   <!-- rouge theme-->
-  <link rel="stylesheet" href="/assets/css/rouge-bg.css" />
-  <!-- mathjax 2.7.5 -->
-  <link rel="stylesheet" href="/assets/css/mystyles.css">
+  <link rel="preload" href="/assets/css/rouge-bg.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/rouge-bg.css"></noscript>
+  <!--link rel="stylesheet" href="/assets/css/mystyles.css"-->
   <!--<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.3/lib/darkmode-js.min.js" ></script>-->
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!--script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Text Styles and Markdown Quick Reference | Karmanyaah Malhotra</title>
 <meta name="generator" content="Jekyll v3.8.5" />
@@ -430,7 +492,7 @@ title: Blog
 <h1>Latest Posts</h1>
 
 <ul>
-  
+  <!--
     <li>
       <h2><a href="/meta/2019/12/21/intro-to-jekyll.html">Intro to jekyll</a></h2>
       <p><p>Got started with jekyll for my site today</p>
@@ -447,7 +509,8 @@ title: Blog
       <h2><a href="/sample/2019/04/16/sjcl.html">An Encrypt and Decrypt tool with sjcl.js</a></h2>
       <p>Sample</p>
     </li>
-  
+  -->
+  <li>No posts (yet)</li>
 </ul>
         </article>
           
