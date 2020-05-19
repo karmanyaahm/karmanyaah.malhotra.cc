@@ -67,4 +67,4 @@ Progress as a timeline
     3. karmaths@reddit kex1xe8c4r4rsxezetv9j6d9tns6vqmw5kncrnh7p77sz3f07fje7t0s537xyh
     4. Cannot verify website because it's hosted on GitHub Pages
 
-Information last updated 5/15/2020
+Information last updated 5/16/2020

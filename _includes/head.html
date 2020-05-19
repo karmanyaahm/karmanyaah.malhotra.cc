@@ -25,74 +25,20 @@
   <link href="{{site.baseurl}}{{site.assets_path}}/img/logo/isolated-monochrome-white.svg" rel="shortcut icon bookmark"
     type="image/x-icon" />
   <!-- main stylesheet -->
-  <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/main.css" type="text/css" />
+  <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/first.css" type="text/css" />
   <!-- fa 5.9.0 -->
   <!-- critical fa.min thing -->
-  <style>
-    @font-face {
-      font-family: "FontAwesome";
-      src: url("assets/fonts/fontawesome-webfont.eot?v=4.7.0");
-      src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),
-        url("assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
-        url("assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
-        url("assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
-        url("assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
 
-
-    @-webkit-keyframes fa-spin {
-      0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-      }
-
-      100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-      }
-    }
-
-    @keyframes fa-spin {
-      0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-      }
-
-      100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-      }
-    }
-
-    .fa {
-      display: inline-block;
-      font: normal normal normal 14px/1 FontAwesome;
-      font-size: inherit;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale
-    }
-
-    .fa-github:before {
-      content: "\f09b"
-    }
-
-    .fa-window-maximize:before {
-      content: "\f2d0";
-    }
-  </style>
-  <link rel="preload" as="style" href="{{site.baseurl}}{{site.assets_path}}/css/fa.min.css"
+  <!-- <link rel="preload" as="style" href="{{site.baseurl}}{{site.assets_path}}/css/fa.min.css"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/fa.min.css"></noscript>
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/fa.min.css"></noscript>-->
+
   <!-- rouge theme-->
-  <link rel="preload" href="{{site.baseurl}}{{site.assets_path}}/css/rouge-bg.css" as="style"
+  <link rel="preload" href="{{site.baseurl}}{{site.assets_path}}/css/later.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/rouge-bg.css"></noscript>
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/later.css"></noscript>
   <!--link rel="stylesheet" href="/assets/css/mystyles.css"-->
   {% include headjs.html %}
   {% seo %}
