@@ -2,5 +2,13 @@
 #hello
 ---
 
+//{% if page.code_included %}
+// @font-face {
+//     font-family: "Fira Code Online";
+//     src: url("https://cdnjs.cloudflare.com/ajax/libs/firacode/4.0.0/woff2/FiraCode-Regular.woff2") format("woff2");
+//     font-display: swap;
+//   }
+//   {% endif %}
+
 @import "main";
 @import "custom_fa";
