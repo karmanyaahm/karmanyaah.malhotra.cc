@@ -21,9 +21,9 @@ code_included: true
 3. PGP Key: 4AF6 79D0 ABA0 ED4B 07BF 7B69 32CA 3267 C8D1 87D7
    - 4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7 same thing without spaces
    - [hkps.pool.sks-keyservers.net](http://hkps.pool.sks-keyservers.net) preferred
-   - Signed message to verify ownership of website [here](/gpg-verify-site.txt)
+   - Signed message to verify ownership of website [here](/gpg-verify-site.txt link to pgp signed site ownership verification)
    - Use this to verify identity during digital communication and to send encrypted emails.
-     - [Learn more](https://emailselfdefense.fsf.org/en/)
+     - [Learn more](https://emailselfdefense.fsf.org/en/ email self defense by the free software foundation)
 4. Email: {% picture "assets/images/e m a i l.png" --alt karmanyaahm 'at' gmail 'dot' com --picture style="height:1em;" --img style="height:1em;" --link /assets/images/e m a i l.png %}
 
 ### Other (unimportant) profiles
