@@ -6,7 +6,7 @@ home_btn: false
 btn_text: true
 footer: false
 encrypted_text: false
-permalink: /bhscs/privacy.html
+permalink: /bhscs/privacy
 status: BHSCS
 title: Join Computer Science Club!
 code_included: true
