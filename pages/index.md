@@ -4,6 +4,7 @@ post_list: "date"
 toc: false
 home_btn: false
 btn_text: true
+showposts: false
 footer: true
 encrypted_text: false
 permalink: /
