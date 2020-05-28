@@ -8,7 +8,10 @@ showposts: false
 {% include head.html %}
 
 <body class="page">
-  {% include background.html %}
+ 
+  <div class="div_bg">
+    <canvas id="c"></canvas>{% comment %}bg effect thing js included later{% endcomment %}
+</div>
   <div class="container" id="ctner">
     {% include header.html %}
     <div class="div_article" id="div_atcl">
@@ -20,8 +23,8 @@ showposts: false
       {% include footer.html %}
       {% endif %}
     </div>
-  </div>
-</body>
+  </div> 
+</body>{% include background.html %}
 {% if site.google_analytics %}
 <script>
   (function (i, s, o, g, r, a, m) {
