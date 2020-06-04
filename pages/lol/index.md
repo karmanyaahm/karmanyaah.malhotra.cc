@@ -2,6 +2,7 @@
 permalink: /lol
 layout: lol
 title: lol
+sitemap: false
 ---
 <script>
 text = new SpeechSynthesisUtterance("LOLOLOLOLOLOLOLOL");

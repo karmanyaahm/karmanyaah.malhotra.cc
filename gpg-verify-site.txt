@@ -1,6 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
+I, Karmanyaah Malhotra (4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7) verify that I own the website at https://karmanyaah.malhotra.cc/ and am the webmaster of the domain malhotra.cc as of this signing at 6/4/2020 5:41 PM. The site at https://karmanyaah.me will continue redirecting to the new domain until about the end of this year.
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEXQ4FmMlvaR4ZOv1nvo3FBnUn1vYFAl7ZaqgACgkQvo3FBnUn
+1vaC0wgAq8V+utZV+W27wlcMezFFj3gCj0RNAuuJ+fh+pKXZV7yr2U1CG35tneiN
+VcWTqAjrVEb8C3ONlSzhOtemrJpJsbUMmIwfiqZi+bHgwlVvp0avj9gDgvrCiLdy
+xyEwJrpXB14/KNwdrvDmvbTirw0F3iYqhlvUOjktY1rdgPAn1Bt8uNh/yqEOL74Z
+MQviQIlnw+A7jeAJ/TWM9BvL0U6bDX07ZERxK9e0vO/DvVU0N9hHQGrAlKjlZZ28
+1KyMNXDPvzBtHFvbSUjGZU83b9hrEjhgBO+ADfvmaslVbzf9kli25GoAYtzCy1rg
+cp+jZwdxh67x/MuJ0p8BuI8nLHdXlA==
+=b9ic
+-----END PGP SIGNATURE-----
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 I, Karmanyaah Malhotra (4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7) verify that I own the website at https://www.karmanyaah.me/ as of this signing at 5/16/2020 10:47 PM.
 -----BEGIN PGP SIGNATURE-----
 

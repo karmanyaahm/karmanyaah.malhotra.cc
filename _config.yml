@@ -20,12 +20,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      sitemap: false
   - scope:
       path: ""
     values:
       layout: "default"
 
-url: "https://www.karmanyaah.me" #for sitemap
+
+url: "https://karmanyaah.malhotra.cc" #for sitemap
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

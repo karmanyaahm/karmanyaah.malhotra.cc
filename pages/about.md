@@ -1,5 +1,6 @@
 ---
 title: About karmanyaahm
+sitemap: false
 ---
 # About page
 
