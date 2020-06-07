@@ -40,7 +40,7 @@ code_included: true
       - [YouTube](https://www.youtube.com/channel/UCgYgYy_LWyq8-M3JVvRA47Q)
         - Also on [LBRY](https://open.lbry.com/@bhsComputerSecurity:c?r=Ac8wgDtgRUsEEL5YXavpfVZxidHbPTmC)
       - [Github](https://github.com/Beachwood-High-School)
-      - Website coming soon
+      - [Its website](https://beachwood-high-school.github.io)
    2. [Science Olympiad](https://www.soinc.org/)
       - 2020 -
       - Not updated since 2018(as of writing this) <http://bscioly.weebly.com/>
@@ -69,4 +69,4 @@ Progress as a timeline
     3. karmaths@reddit kex1xe8c4r4rsxezetv9j6d9tns6vqmw5kncrnh7p77sz3f07fje7t0s537xyh
     4. Cannot verify website because it's hosted on GitHub Pages
 
-Information last updated 5/16/2020
+Information last updated 6/7/2020
