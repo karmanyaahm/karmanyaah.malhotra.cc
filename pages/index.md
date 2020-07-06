@@ -48,7 +48,7 @@ code_included: true
 
 1. PGP Key: 4AF6 79D0 ABA0 ED4B 07BF 7B69 32CA 3267 C8D1 87D7
    - 4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7 same thing without spaces
-   - [hkps.pool.sks-keyservers.net](http://hkps.pool.sks-keyservers.net) preferred
+   - [keys.openpgp.org](https://keys.openpgp.org/) preferred
    - Signed message to verify ownership of website [as a text file](/gpg-verify-site.txt "link to pgp signed site ownership verification")
    - Use this to verify identity during digital communication and to send encrypted emails.
      - [Learn more by the Free Software Foundation](https://emailselfdefense.fsf.org/en/ "email self defense by the free software foundation")
@@ -58,8 +58,8 @@ code_included: true
 
 Progress as a timeline
 
-1.  [Keybase](https://keybase.io/karmanyaahm): Keybase now owned by Zoom (I'm working on getting rid of it)
-2.  <https://github.com/karmanyaahm.gpg> (In addition to the keyserver mentioned above)
+1.  [Keybase](https://keybase.io/karmanyaahm): Keybase dropped now
+2.  <https://github.com/karmanyaahm.gpg> (In addition to the keyserver mentioned above - this will probably be out of date)
 3.  Preparing <https://keys.pub> for identity verification
 4.  [keys.pub](https://keys.pub/)
     1. karmanyaahm@github kex1xsky8y5cwtnv974kw384fkn4j8xety8rwz333c9eqkp288z2n4xs6setrp
