@@ -15,32 +15,20 @@ code_included: true
 
 # Karmanyaah's Website
 
-## My profile on the WWW
+## Profile
 
-1. Fixing Keybase [below](#identity-verification)
-2. [GitHub](https://github.com/karmanyaahm): All my code creations
-3. PGP Key: 4AF6 79D0 ABA0 ED4B 07BF 7B69 32CA 3267 C8D1 87D7
-   - 4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7 same thing without spaces
-   - [hkps.pool.sks-keyservers.net](http://hkps.pool.sks-keyservers.net) preferred
-   - Signed message to verify ownership of website [as a text file](/gpg-verify-site.txt "link to pgp signed site ownership verification")
-   - Use this to verify identity during digital communication and to send encrypted emails.
-     - [Learn more by the Free Software Foundation](https://emailselfdefense.fsf.org/en/ "email self defense by the free software foundation")
-4. Email: {% picture "assets/images/e m a i l.png" --alt karmanyaahm 'at' gmail 'dot' com --picture style="height:1em;" --img style="height:1em;" --link /assets/images/e m a i l.png %}
+### Code Projects
 
-### Other (unimportant) profiles
+   * [Github](https://github.com/karmanyaahm) -  Basically all my publishable code
 
-- Music playlists [on YouTube Music](https://music.youtube.com/browse/UCiBpDtvo8GthIt7cXcR5Gqw)
+### Other Projects
+   * [Hackaday](https://hackaday.io/karmanyaahm) - A few projects on there
 
-### Public work
-
-1. [Github](https://github.com/karmanyaahm)
-2. Beachwood High School
+### Work
+1. Beachwood High School
    1. Computer Security Club
       - Sep 2019 -
-      - [YouTube](https://www.youtube.com/channel/UCgYgYy_LWyq8-M3JVvRA47Q)
-        - Also on [LBRY](https://open.lbry.com/@bhsComputerSecurity:c?r=Ac8wgDtgRUsEEL5YXavpfVZxidHbPTmC)
-      - [Github](https://github.com/Beachwood-High-School)
-      - [Its website](https://beachwood-high-school.github.io)
+      - [Website](https://beachwood-high-school.github.io)
    2. [Science Olympiad](https://www.soinc.org/)
       - 2020 -
       - Not updated since 2018(as of writing this) <http://bscioly.weebly.com/>
@@ -52,9 +40,19 @@ code_included: true
       - <https://frc-events.firstinspires.org/2020/team/695>
       - <https://www.thebluealliance.com/team/695>
       - <https://github.com/FRCTeam695>
-3. Beachwood Middle School
+2. Beachwood Middle School
    1. Science Olympiad
       - Sep 2018 - March 2020
+
+## Contact
+
+1. PGP Key: 4AF6 79D0 ABA0 ED4B 07BF 7B69 32CA 3267 C8D1 87D7
+   - 4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7 same thing without spaces
+   - [hkps.pool.sks-keyservers.net](http://hkps.pool.sks-keyservers.net) preferred
+   - Signed message to verify ownership of website [as a text file](/gpg-verify-site.txt "link to pgp signed site ownership verification")
+   - Use this to verify identity during digital communication and to send encrypted emails.
+     - [Learn more by the Free Software Foundation](https://emailselfdefense.fsf.org/en/ "email self defense by the free software foundation")
+2. Email: {% picture "assets/images/e m a i l.png" --alt karmanyaahm 'at' gmail 'dot' com --picture style="height:1em;" --img style="height:1em;" --link /assets/images/e m a i l.png %}
 
 ### Identity Verification
 
@@ -69,4 +67,10 @@ Progress as a timeline
     3. karmaths@reddit kex1xe8c4r4rsxezetv9j6d9tns6vqmw5kncrnh7p77sz3f07fje7t0s537xyh
     4. Cannot verify website because it's hosted on GitHub Pages
 
-Information last updated 6/7/2020
+
+## Other (unimportant) profiles
+
+- Music playlists [on YouTube Music](https://music.youtube.com/browse/UCiBpDtvo8GthIt7cXcR5Gqw)  
+
+
+Information last updated 7/5/2020

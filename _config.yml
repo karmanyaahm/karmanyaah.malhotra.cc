@@ -3,6 +3,7 @@ collections:
     output: true
 
 host: 192.168.0.199
+livereload: true
 
 #theme: jekyll-theme-hacker
 title: "Karmanyaah Malhotra"
