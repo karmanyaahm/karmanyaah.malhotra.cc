@@ -58,6 +58,7 @@ kramdown:
 
 destination: ../_site
 keep_files: [".git", ".gitignore"]
+include: [".well-known"]
 ## Settings
 owner: "Karmanyaah Malhotra"
 

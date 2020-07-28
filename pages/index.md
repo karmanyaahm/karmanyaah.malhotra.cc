@@ -60,17 +60,18 @@ Progress as a timeline
 
 1.  [Keybase](https://keybase.io/karmanyaahm): Keybase dropped now
 2.  <https://github.com/karmanyaahm.gpg> (In addition to the keyserver mentioned above - this will probably be out of date)
-3.  Preparing <https://keys.pub> for identity verification
-4.  [keys.pub](https://keys.pub/)
+3.  [keys.pub](https://keys.pub/)
     1. karmanyaahm@github kex1xsky8y5cwtnv974kw384fkn4j8xety8rwz333c9eqkp288z2n4xs6setrp
     2. karmanyaahm@twitter kex1cmgqqfcqd695ed06nww0utkpxngzdqgj7gyj7nt34nqwewz78ucqtnuckl
     3. karmaths@reddit kex1xe8c4r4rsxezetv9j6d9tns6vqmw5kncrnh7p77sz3f07fje7t0s537xyh
-    4. Cannot verify website because it's hosted on GitHub Pages
+    4. karmanyaah.malhotra.cc@https kex16th8st7k9xwv7xxmz9nadfht9xjn2scztrp6qhsc0gs8nv4tvv7qwcraa4
 
    
 ## Other (unimportant) profiles
 
 - Music playlists [on YouTube Music](https://music.youtube.com/browse/UCiBpDtvo8GthIt7cXcR5Gqw)  
+- Twitter: <https://twitter.com/karmanyaahm>
+- <a rel="me" href="https://social.linux.pizza/@karmanyaahm">Mastodon</a>
 
 
-Information last updated 7/5/2020
+Information last updated 7/22/2020
