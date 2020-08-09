@@ -14,6 +14,8 @@ code_included: true
 
 # Beachwood High School Computer Science Club
 
+*Updated page at <https://bhscomputerscienceclub.github.io/join/>*
+
 Computer Science Club (the new and improved version of Computer Security Club) is a fun but productive place where you can come to learn computer science from scratch, brush up your existing skills, or create cool projects.
 
 We primarily focus on:
@@ -47,14 +49,14 @@ We participate in various competitions throughout the year:
   2. HSCTF
   3. CTFLearn
   4. PekoeCTF (Our teams were first and second place)
-  5. [View up to date info](http://beachwood-high-school.github.io/ctfs/)
+  5. [View up to date info](http://bhscomputerscienceclub.github.io/ctfs/)
 - Hackathons (Events where you make apps and have a lot of fun working all night)(Ranked by importance):
   1. Hyland Hackathon
   2. UHacks
   3. CWRU Hackathon
   4. Programmer Humor Hackathon
   5. Gillmore Hackathon
-  6. [View up to date info](http://beachwood-high-school.github.io/hackathons/)
+  6. [View up to date info](http://bhscomputerscienceclub.github.io/hackathons/)
 - Other:
   - Congressional App Challenge
   - Data science competitions
