@@ -26,9 +26,9 @@ code_included: true
 
 ### Work
 1. Beachwood High School
-   1. Computer Security Club
+   1. Computer Science Club (prev. Computer Security Club)
       - Sep 2019 -
-      - [Website](https://beachwood-high-school.github.io)
+      - [Website](https://bhscomputerscienceclub.github.io)
    2. [Science Olympiad](https://www.soinc.org/)
       - 2020 -
       - Not updated since 2018(as of writing this) <http://bscioly.weebly.com/>
@@ -46,32 +46,30 @@ code_included: true
 
 ## Contact
 
-1. PGP Key: 4AF6 79D0 ABA0 ED4B 07BF 7B69 32CA 3267 C8D1 87D7
+1. Email: {% picture "assets/images/e m a i l.png" --alt karmanyaahm 'at' gmail 'dot' com --picture style="height:1em;" --img style="height:1em;" --link /assets/images/e m a i l.png %}
+2. [Matrix](https://matrix.to/#/@karmanyaahm:matrix.org) (Don't regularly check)
+3. PGP Key: 4AF6 79D0 ABA0 ED4B 07BF 7B69 32CA 3267 C8D1 87D7
    - 4AF679D0ABA0ED4B07BF7B6932CA3267C8D187D7 same thing without spaces
-   - [keys.openpgp.org](https://keys.openpgp.org/) preferred
+   - Identity proofs @ [keyoxide](https://keyoxide.org/4af679d0aba0ed4b07bf7b6932ca3267c8d187d7)
    - Signed message to verify ownership of website [as a text file](/gpg-verify-site.txt "link to pgp signed site ownership verification")
    - Use this to verify identity during digital communication and to send encrypted emails.
      - [Learn more by the Free Software Foundation](https://emailselfdefense.fsf.org/en/ "email self defense by the free software foundation")
-2. Email: {% picture "assets/images/e m a i l.png" --alt karmanyaahm 'at' gmail 'dot' com --picture style="height:1em;" --img style="height:1em;" --link /assets/images/e m a i l.png %}
-
-### Identity Verification
-
-Progress as a timeline
-
-1.  [Keybase](https://keybase.io/karmanyaahm): Keybase dropped now
-2.  <https://github.com/karmanyaahm.gpg> (In addition to the keyserver mentioned above - this will probably be out of date)
-3.  [keys.pub](https://keys.pub/)
+4. Identity verification with [keys.pub](https://keys.pub/)
     1. karmanyaahm@github kex1xsky8y5cwtnv974kw384fkn4j8xety8rwz333c9eqkp288z2n4xs6setrp
     2. karmanyaahm@twitter kex1cmgqqfcqd695ed06nww0utkpxngzdqgj7gyj7nt34nqwewz78ucqtnuckl
     3. karmaths@reddit kex1xe8c4r4rsxezetv9j6d9tns6vqmw5kncrnh7p77sz3f07fje7t0s537xyh
     4. karmanyaah.malhotra.cc@https kex16th8st7k9xwv7xxmz9nadfht9xjn2scztrp6qhsc0gs8nv4tvv7qwcraa4
 
-   
+### Online Social Communication
+- [Twitter](https://twitter.com/karmanyaahm) - @karmanyaahm
+- <a rel="me" href="https://social.linux.pizza/@karmanyaahm">Mastodon</a> - @karmanyaahm@social.linux.pizza
+- [Reddit](https://www.reddit.com/user/karmaths) - u/karmaths
+
+
+
+
 ## Other (unimportant) profiles
 
 - Music playlists [on YouTube Music](https://music.youtube.com/browse/UCiBpDtvo8GthIt7cXcR5Gqw)  
-- Twitter: <https://twitter.com/karmanyaahm>
-- <a rel="me" href="https://social.linux.pizza/@karmanyaahm">Mastodon</a>
 
-
-Information last updated 7/22/2020
+Information last updated 8/28/2020

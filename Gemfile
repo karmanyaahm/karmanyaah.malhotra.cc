@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
 
 group :jekyll_plugins do
     gem 'jekyll-sitemap'
@@ -9,6 +8,5 @@ group :jekyll_plugins do
   end
 
 
-gem 'github-pages'
-
+gem "jekyll", "~> 4.0"
 gem "jekyll-last-modified-at", "~> 1.3"
