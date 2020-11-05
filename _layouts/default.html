@@ -26,8 +26,12 @@ showposts: false
   </div> 
 </body>{% include background.html %}
 {% if site.google_analytics %}
+
+{% if jekyll.environment == "production" %}
 <script data-goatcounter="https://kar.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+        async src="//gc.zgo.at/count.js"></script>{% endif %}
+
+
 {% endif %}
 
 </html>
