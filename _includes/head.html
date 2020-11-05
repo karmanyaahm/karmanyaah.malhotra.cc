@@ -3,37 +3,50 @@
   <!-- multi-device width -->
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <!-- site description -->
-  {% if page.excerpt %}
-  {% assign desc = page.excerpt | strip_html |
-  strip_newlines | truncate: 160 %}
-  {% else %}
-  {% assign desc = site.description
-  %}
-  {% endif %}
+  {% if page.excerpt %} {% assign desc = page.excerpt | strip_html |
+  strip_newlines | truncate: 160 %} {% else %} {% assign desc = site.description
+  %} {% endif %}
   <meta content="{{ desc }}" name="description" />
   <!-- referer for 3rd-part images-->
   <meta content="no-referrer" name="referrer" />
   <!-- title -->
   <title>
-    {% if page.title %}
-    {{ page.title | escape }}
-    {% else %}
-    {{ site.title | escape }}
-    {% endif %}
+    {% if page.title %} {{ page.title | escape }} {% else %} {{ site.title |
+    escape }} {% endif %}
   </title>
   <!-- icon -->
-  <link href="{{site.baseurl}}{{site.assets_path}}/img/logo/isolated-monochrome-white.svg" rel="shortcut icon bookmark"
-    type="image/x-icon" />
+  <link
+    href="{{site.baseurl}}{{site.assets_path}}/img/logo/isolated-monochrome-white.svg"
+    rel="shortcut icon bookmark"
+    type="image/x-icon"
+  />
   <!-- main stylesheet -->
-  <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/first.css" type="text/css" />
+  <link
+    rel="stylesheet"
+    href="{{site.baseurl}}{{site.assets_path}}/css/first.css"
+    type="text/css"
+  />
 
   <!-- rouge theme-->
-  <link href="{{site.baseurl}}{{site.assets_path}}/css/later.css" rel="stylesheet" rel="preload" as="style">
+  <link
+    href="{{site.baseurl}}{{site.assets_path}}/css/later.css"
+    rel="stylesheet"
+    rel="preload"
+    as="style"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    rel="preload"
+    as="style"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous"
+  />
   <noscript>
-    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets_path}}/css/later.css"></noscript>
+    <link
+      rel="stylesheet"
+      href="{{site.baseurl}}{{site.assets_path}}/css/later.css"
+  /></noscript>
   <!--link rel="stylesheet" href="/assets/css/mystyles.css"-->
-  {% include headjs.html %}
-  {% seo %}
-
-  {% feed_meta %}
+  {% include headjs.html %} {% seo %} {% feed_meta %}
 </head>

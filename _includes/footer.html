@@ -1,14 +1,18 @@
 <div class="footer">
-    <nav class="nav_bar">
-        <ul>
-            <li class="copyright">
-                © 2020
-            </li>
-            {% if site.statement %}
-            <li>
-                {{ site.statement }}
-            </li>
-            {% endif %}
-    </nav>
+  <nav class="nav_bar">
+    <ul>
+      <li class="copyright">© 2020 </li>
+      {% if site.statement %}
+      <li>{{ site.statement }}</li>
+      {% endif %}
+
+      <li>
+        <a class="" href="/feed.xml">
+            <i class="fa fa-rss"></i> Atom Feed
+        </a>
+      </li>
+
     </ul>
+    
+  </nav>
 </div>
