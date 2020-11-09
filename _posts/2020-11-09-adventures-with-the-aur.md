@@ -5,7 +5,7 @@ toc_level: 4
 category: Linux
 ---
 
-# My adventures contributing to the AUR
+My first time contributing to the AUR ...
 
 The story starts when I found an amazing script by [Zeitpunk](https://github.com/ztpnk/) on GitHub called [gotify-dunst](https://github.com/ztpnk/) that can show desktop notifications for Gotify. I set it up and submitted a patch with a few changes along the way. I wanted desktop notifications without being tied up to my phone through KDE Connect, while I got notifications from anyway most of the time. Anyway, I set this up and realized there should be a way to automate the build process. I had a general sense of what GNU Make was but had never used it. I had also wanted to maintain an AUR package for a while at this point but I never found the right opportunity. This was it!
 
