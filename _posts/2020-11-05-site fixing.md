@@ -1,8 +1,7 @@
 ---
-toc: true
 author: Karmanyaah
-toc_level: 4
 category: Meta
+tags: blog jekyll
 ---
 So I'm back to fixing my website now!
 

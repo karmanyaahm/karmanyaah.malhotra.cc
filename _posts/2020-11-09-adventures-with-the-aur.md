@@ -1,5 +1,4 @@
 ---
-toc: true
 author: Karmanyaah
 category: Linux
 tags: arch

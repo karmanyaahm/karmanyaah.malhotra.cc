@@ -1,8 +1,6 @@
 ---
-toc: true
 activity: bisonCS
 author: Karmanyaah
-toc_level: 4
 category: Meta
 ---
 Got started with jekyll for my site today
