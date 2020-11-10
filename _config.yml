@@ -21,7 +21,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      sitemap: false
       showposts: true
   - scope:
       path: ""
@@ -35,7 +34,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-minifier
-
+  - jekyll-last-modified-at
 #    github default
 #   jekyll-coffeescript
 #  jekyll-default-layout

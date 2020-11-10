@@ -2,6 +2,7 @@
 author: Karmanyaah
 category: Linux
 tags: arch
+date: 2020-11-09 02:00 -0500
 ---
 
 My first time contributing to the AUR ...
