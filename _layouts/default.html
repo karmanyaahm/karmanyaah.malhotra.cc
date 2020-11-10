@@ -1,6 +1,7 @@
 ---
 layout: compress
 showposts: false
+footer: true
 ---
 
 <!DOCTYPE html>
@@ -19,7 +20,7 @@ showposts: false
         {{content}}
         {% include blog.html %}
       </article>
-      {% if page.footer == true %}
+      {% if page.footer != false %}
       {% include footer.html %}
       {% endif %}
     </div>

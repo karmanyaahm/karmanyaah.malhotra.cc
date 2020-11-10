@@ -1,8 +1,8 @@
 ---
 toc: true
 author: Karmanyaah
-toc_level: 4
 category: Linux
+tags: arch
 ---
 
 My first time contributing to the AUR ...

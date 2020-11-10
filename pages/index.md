@@ -46,8 +46,9 @@ code_included: true
    1. Science Olympiad
      * Sep 2018 - March 2020
 
-## Contact
+## [Contact](/contact/)
 
+<ul>
 {%for page in site.pages%}
    {%if page.name =="contact.md" %}
       {%assign p = page.content | split: "</ul>" %}
@@ -55,9 +56,8 @@ code_included: true
       {{p[1]}}
    {%endif%}
 {%endfor%}
+</ul>
 
 ## Other (unimportant) profiles
 
-- Music playlists [on YouTube Music](https://music.youtube.com/browse/UCiBpDtvo8GthIt7cXcR5Gqw)  
-
-Information last updated 8/28/2020
+* Music playlists [on YouTube Music](https://music.youtube.com/browse/UCiBpDtvo8GthIt7cXcR5Gqw)

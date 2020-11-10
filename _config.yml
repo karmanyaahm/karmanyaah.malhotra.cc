@@ -22,6 +22,7 @@ defaults:
     values:
       layout: "post"
       sitemap: false
+      showposts: true
   - scope:
       path: ""
     values:
@@ -62,7 +63,7 @@ include: [".well-known"]
 ## Settings
 owner: "Karmanyaah Malhotra"
 
-baseurl: "/"
+baseurl: ""
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
@@ -71,7 +72,7 @@ email: ""
 aboutmeenable: false
 github: "karmanyaahm/karmanyaahm.github.io"
 # path to: css/, fonts/, img/ and js/
-assets_path: "assets" # i.e. "/assets"
+assets_path: "/assets" # i.e. "/assets"
 statement: "All Rights Reserved?"
 # default max toc levels: 1 - 6 (h1 - h6)
 toc_level: 6
@@ -94,3 +95,4 @@ compress_html:
   profile: false
   startings: []
   #testing
+
