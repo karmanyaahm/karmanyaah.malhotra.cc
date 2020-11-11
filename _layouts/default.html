@@ -17,6 +17,7 @@ footer: true
     {% include header.html %}
     <div class="div_article" id="div_atcl">
       <article id="main_atcl" itemscope itemtype="http://schema.org/BlogPosting">
+      {% include counterBlocked.html %}
         {{content}}
         {% include blog.html %}
       </article>
