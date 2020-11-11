@@ -17,6 +17,7 @@ footer: true
     {% include header.html %}
     <div class="div_article" id="div_atcl">
       <article id="main_atcl" itemscope itemtype="http://schema.org/BlogPosting">
+      {% include counterBlocked.html %}
         {{content}}
         {% include blog.html %}
       </article>
@@ -26,13 +27,9 @@ footer: true
     </div>
   </div> 
 </body>{% include background.html %}
-{% if site.google_analytics %}
-
-{% if jekyll.environment == "production" %}
-<script data-goatcounter="https://kar.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>{% endif %}
-
-
+{% if site.analytics and jekyll.environment == "production" %}<script data-goatcounter="https://kar.goatcounter.com/count"
+async src="/assets/js/count.js" onerror="goatCounterBlocked()" ></script>
 {% endif %}
+
 
 </html>

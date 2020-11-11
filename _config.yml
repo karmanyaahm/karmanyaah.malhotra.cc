@@ -8,7 +8,7 @@ livereload: true
 #theme: jekyll-theme-hacker
 title: "Karmanyaah Malhotra"
 description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
-google_analytics: true
+analytics: true
 permalink: /:categories/:year/:month/:title/
 defaults:
   - scope:
