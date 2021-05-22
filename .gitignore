@@ -3,6 +3,7 @@
 /.vscode
 
 _site/
+_bundle
 
 .sass-cache/
 
