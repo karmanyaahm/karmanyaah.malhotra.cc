@@ -12,15 +12,9 @@ title: Contact
 
 ## Communication
 
-### Primary
-
 1. Email: karmanyaahm 'at' gmail 'dot' com
-2. Work Email for School related tasks: (the number 20+3)kmalhotra 'at' beachwoodstudents 'dot' org (in the format 19flastname@beachwoodstudents.org)
-
-### Might not regularly check
-
-1. Matrix - [@karmanyaahm:matrix.org](https://matrix.to/#/@karmanyaahm:matrix.org)
-2. XMPP - karmanyaahm@e2e.ee
+1. Matrix - [@karmanyaahm:malhotra.cc](https://matrix.to/#/@karmanyaahm:malhotra.cc)
+2. ~~Work Email for School related tasks: (the number 20+3)kmalhotra 'at' beachwoodstudents 'dot' org (in the format 19flastname@beachwoodstudents.org)~~ no
 
 ## Social
 
