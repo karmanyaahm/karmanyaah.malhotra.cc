@@ -5,11 +5,6 @@ set -e
 
 printf "\033[0;32mDeploying updates to ipfs...\033[0m\n"
 
-export JEKYLL_ENV="production"
-
-# Build the project.
-bundle-2.7 exec jekyll build # if using a theme, replace with `hugo -t <YOURTHEME>`
-
 DIR="./_site"
 KEY="mysite"
 LOC="/website/karmanyaah.malhotra.cc"

@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-seo-tag'
@@ -12,3 +11,5 @@ group :jekyll_plugins do
 
 gem "jekyll", "~> 4.0"
 
+
+gem "webrick", "~> 1.7"
