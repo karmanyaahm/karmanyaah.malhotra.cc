@@ -10,18 +10,21 @@ export JEKYLL_ENV="production"
 # Build the project.
 bundle-2.7 exec jekyll build # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-ipfs add _site -rpQ
+DIR="./_site"
+KEY="mysite"
+LOC="/website/karmanyaah.malhotra.cc"
 
+ipfs add "$DIR" -rp --pin=false
 echo "successfully added and pinned, now publishing"
 
-CID=$(ipfs add _site -rQ)
-ipfs name publish -k mysite $CID
+CID=$(ipfs add "$DIR" -rQ --pin=false)
+ipfs name publish -k $KEY $CID
 
 echo "ipns published"
 
-LOC="/website/karmanyaah.malhotra.cc"
 echo adding $CID to $LOC
 ipfs files mkdir -p "$LOC"
 ipfs files cp /ipfs/$CID "$LOC/$(date +%F_%T)"
 
 echo "file added"
+
