@@ -10,16 +10,23 @@ KEY="mysite"
 LOC="/website/karmanyaah.malhotra.cc"
 
 ipfs add "$DIR" -rp --pin=false
-echo "successfully added and pinned, now publishing"
 
 CID=$(ipfs add "$DIR" -rQ --pin=false)
-ipfs name publish -k $KEY $CID
+KEY_VALUE=$(ipfs key list -l | grep mysite | cut -d ' ' -f1 | xargs ipfs name resolve) # resolves own key
+echo $CID $KEY_VALUE
+if [[ "/ipfs/$CID" == $KEY_VALUE ]]; then 
+	echo "ALREADY PUBLISHED"
+else
+	echo PUBLISHING
+	ipfs name publish -k $KEY $CID
+fi
 
-echo "ipns published"
 
-echo adding $CID to $LOC
 ipfs files mkdir -p "$LOC"
-ipfs files cp /ipfs/$CID "$LOC/$(date +%F_%T)"
-
-echo "file added"
+if ipfs files ls -l "$LOC" | grep -q $CID; then
+	echo already added $CID to $LOC
+else
+	echo adding $CID to $LOC
+	ipfs files cp /ipfs/$CID "$LOC/$(date +%F_%T)"
+fi
 
