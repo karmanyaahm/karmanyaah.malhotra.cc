@@ -13,7 +13,7 @@ title: Contact
 ## Communication
 
 1. Email: karmanyaahm 'at' gmail 'dot' com
-1. Matrix - [@karmanyaahm:malhotra.cc](https://matrix.to/#/@karmanyaahm:malhotra.cc)
+1. Matrix - [@karmanyaah:malhotra.cc](https://matrix.to/#/@karmanyaah:malhotra.cc)
 2. ~~Work Email for School related tasks: (the number 20+3)kmalhotra 'at' beachwoodstudents 'dot' org (in the format 19flastname@beachwoodstudents.org)~~ no
 
 ## Social
