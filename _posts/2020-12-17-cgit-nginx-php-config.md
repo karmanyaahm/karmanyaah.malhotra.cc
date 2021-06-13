@@ -3,6 +3,7 @@ author: Karmanyaah
 category: Notes
 tags: self_hosting nginx
 date: 2020-12-17 02:42 -0500
+commentslug: cgit-nginx-20-12
 ---
 
 Sharing my cgit nginx config with the internet
