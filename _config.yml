@@ -84,9 +84,9 @@ assets_path: "/assets" # i.e. "/assets"
     ###########Possible bugs
     ##list of articles.html > using site.url
     #
-    #sass:
-    #  sass_dir: assets/_sass
-    #  style: compressed
+sass:
+  sass_dir: assets/_sass
+  style: compressed
     #
 compress_html:
     #  clippings: []
