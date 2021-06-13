@@ -1,3 +1,5 @@
+assets/vendor/*
+!assets/vendor/.gitkeep
 
 .vscode
 /.vscode
