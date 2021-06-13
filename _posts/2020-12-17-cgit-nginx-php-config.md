@@ -1,5 +1,4 @@
 ---
-author: Karmanyaah
 category: Notes
 tags: self_hosting nginx
 date: 2020-12-17 02:42 -0500

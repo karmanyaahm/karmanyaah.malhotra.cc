@@ -1,6 +1,5 @@
 ---
 activity: bisonCS
-author: Karmanyaah
 category: Meta
 ---
 Got started with jekyll for my site today

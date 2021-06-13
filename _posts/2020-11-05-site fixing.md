@@ -1,5 +1,4 @@
 ---
-author: Karmanyaah
 category: Meta
 tags: blog jekyll
 ---
