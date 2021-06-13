@@ -1,6 +1,6 @@
 ---
-layout: default
-permalink: /contact/
+layout: page
+sidebar_link: true
 title: Contact
 ---
 

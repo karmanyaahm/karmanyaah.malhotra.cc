@@ -5,36 +5,40 @@ collections:
 #host: 192.168.0.199
 livereload: true
 
-#theme: jekyll-theme-hacker
+theme: jekyll-theme-hydeout
 title: "Karmanyaah Malhotra"
-description: "This is my personal website for experimentation and having a profile that I maintain on the WWW."
-analytics: true
+description: "My personal website bc y not"
+analytics: kar
 permalink: /:categories/:year/:month/:title/
 defaults:
-  - scope:
-      path: ""
-      type: "activities"
-    values:
-      layout: "activity"
+  #  - scope:
+  #      path: ""
+  #      type: "activities"
+  #    values:
+  #      layout: "activity"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       showposts: true
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-      toc: false
+        #  - scope:
+        #      path: ""
+        #    values:
+        #      layout: "default"
+        #      toc: false
 
 
 url: "https://karmanyaah.malhotra.cc" #for sitemap
+paginate:         5
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-minifier
   - jekyll-last-modified-at
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 #    github default
 #   jekyll-coffeescript
 #  jekyll-default-layout
@@ -46,53 +50,50 @@ plugins:
 #    jekyll-titles-from-headings
 #   jekyll-relative-links
 
-lsi: false
-safe: true
-#source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-
-destination: _site
-keep_files: [".git", ".gitignore"]
-include: [".well-known"]
-## Settings
-owner: "Karmanyaah Malhotra"
-
-baseurl: ""
-webrick:
-  headers:
-    Access-Control-Allow-Origin: "*"
-## Global Variables
-email: ""
-aboutmeenable: false
-github: "karmanyaahm/karmanyaahm.github.io"
-# path to: css/, fonts/, img/ and js/
-assets_path: "/assets" # i.e. "/assets"
-statement: "All Rights Reserved?"
-# default max toc levels: 1 - 6 (h1 - h6)
-toc_level: 6
-# texts randomly displayed in background
-bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
-##########Possible bugs
-#list of articles.html > using site.url
-
-sass:
-  sass_dir: assets/_sass
-  style: compressed
-
+    #lsi: false
+    #safe: true
+    ##source: [your repo's top level directory]
+    #highlighter: rouge
+    #gist:
+    #  noscript: false
+    #kramdown:
+    #  math_engine: mathjax
+    #  syntax_highlighter: rouge
+    #
+    #destination: _site
+    #keep_files: [".git", ".gitignore"]
+    #include: [".well-known"]
+    ### Settings
+    #owner: "Karmanyaah Malhotra"
+    #
+    #baseurl: ""
+    #webrick:
+    #  headers:
+    #    Access-Control-Allow-Origin: "*"
+    ### Global Variables
+    #email: ""
+    #aboutmeenable: false
+    #github: "karmanyaahm/karmanyaahm.github.io"
+    ## path to: css/, fonts/, img/ and js/
+    #assets_path: "/assets" # i.e. "/assets"
+    #statement: "All Rights Reserved?"
+    ## default max toc levels: 1 - 6 (h1 - h6)
+    #toc_level: 6
+    ###########Possible bugs
+    ##list of articles.html > using site.url
+    #
+    #sass:
+    #  sass_dir: assets/_sass
+    #  style: compressed
+    #
 compress_html:
-  clippings: []
-  comments: []
-  endings: []
-  ignore:
-    envs: []
-  blanklines: false
-  profile: false
-  startings: []
-  #testing
+    #  clippings: []
+    #  comments: []
+    #  endings: []
+    #  ignore:
+    #    envs: []
+    #  blanklines: false
+    #  profile: false
+    #  startings: []
+    #  #testing
 
