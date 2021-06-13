@@ -9,6 +9,9 @@ theme: jekyll-theme-hydeout
 title: "Karmanyaah Malhotra"
 description: "My personal website bc y not"
 analytics: kar
+author:
+  name:           'Karmanyaah Malhotra'
+  url:            https://karmanyaah.malhotra.cc/about
 permalink: /:categories/:year/:month/:title/
 defaults:
   #  - scope:

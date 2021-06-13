@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /contact
 sidebar_link: true
 title: Contact
 ---

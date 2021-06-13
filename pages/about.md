@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /about
 sidebar_link: true
 title: About Me
 ---
