@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /ipfs-404.html
+footer: false
+---
+
+# 404 - Page Not Found
+Hmmmmm.... there are a few possibilities
+* You are trying to hack this website - You Failed!
+* You are lost and want to go back [**home**](/)
+
+
+
