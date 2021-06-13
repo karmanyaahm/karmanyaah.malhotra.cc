@@ -6,7 +6,7 @@ tags:
   - blog
 category: tech
 date: 2021-06-13 02:00 -0400
-title: My website redesign
+title: Website Redesign and Comment Systems
 commentslug: 2106-website-redesign
 ---
 
