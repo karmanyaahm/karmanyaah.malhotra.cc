@@ -1,0 +1,10 @@
+---
+---
+# {{page.title}}
+
+{{content}}
+{% if page.commentslug %}
+# Comments
+This gemini capusule uses Cactus Chat, a comments system based on Matrix.
+=> https://matrix.to/#/#comments_karmanyaah.malhotra.cc_{{page.commentslug}}:malhotra.cc #comments_karmanyaah.malhotra.cc_{{page.commentslug}}:malhotra.cc
+{% endif %}

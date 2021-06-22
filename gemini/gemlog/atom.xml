@@ -1,0 +1,28 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+	<link rel='self' href='gemini://{{site.domain}}/gemlog/atom.xml'/>
+	<link rel='alternate' href='gemini://{{site.domain}}/gemlog/index.gmi'/>
+	<title>{{site.title}}</title>
+	<subtitle>{{site.description}}</subtitle>
+	<updated>{{site.gemlog[0].date | date_to_xmlschema}}</updated>
+	<id>gemini://{{site.domain}}/gemlog/atom.xml</id>
+	{% if site.author %}
+    	<author>
+    	    <name>{{ site.author.name | default: site.author }}</name>
+    	    <uri>{{ site.author.gemuri }}</uri>
+    	</author>
+  	{% endif %}
+
+	{% for post in site.gemlog %}
+	<entry>
+		<title>{{ post.title }}</title>
+		<id>{{ post.relative_path }}</id>
+		<link rel='alternate' href='gemini://{{site.domain}}/{{post.url | relative_url | split: "/" | slice: 2,9999 | join: "/" }}'/>
+		<updated>{{post.date | date_to_xmlschema}}</updated>
+		<summary>{{post.content | newline_to_br | split: "<br />" | slice: 0,1 | join: ""| strip  }}</summary>
+	</entry>
+	{% endfor %}
+</feed>

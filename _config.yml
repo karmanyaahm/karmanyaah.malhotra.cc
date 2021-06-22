@@ -1,7 +1,3 @@
-collections:
-  activities:
-    output: true
-
 #host: 192.168.0.199
 livereload: true
 
@@ -12,27 +8,28 @@ analytics: kar
 author:
   name:           'Karmanyaah Malhotra'
   url:            https://karmanyaah.malhotra.cc/about
+  gemuri: gemini://karmanyaah.malhotra.cc/
 permalink: /:categories/:year/:month/:title/
 defaults:
-  #  - scope:
-  #      path: ""
-  #      type: "activities"
-  #    values:
-  #      layout: "activity"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       showposts: true
-        #  - scope:
-        #      path: ""
-        #    values:
-        #      layout: "default"
-        #      toc: false
-
+  - scope:
+      path: ""
+      type: "gemlog"
+    values:
+      layout: "gemlog"
+collections:
+  gemlog:
+    output: true
+    permalink: /gemini/gemlog/:path:output_ext
 
 url: "https://karmanyaah.malhotra.cc" #for sitemap
+domain: karmanyaah.malhotra.cc
+
 paginate:         5
 plugins:
   - jekyll-sitemap

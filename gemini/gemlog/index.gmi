@@ -1,0 +1,10 @@
+---
+---
+
+# {{site.author.name}}'s gemlog
+
+## My Posts
+{% for post in site.gemlog %}
+=> {{post.url | relative_url | split: "/" | slice: 3,9999 | join: "/" }} {{post.date | date: "%Y-%m-%d"}} - {{post.title}}{% endfor %}
+
+=> atom.xml Atom Feed

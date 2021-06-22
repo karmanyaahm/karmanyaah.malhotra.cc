@@ -1,5 +1,8 @@
-# Unix stuff 
-
+---
+title: Unix Stuff
+commentslug: 21-01-unix-utilities
+date: 2021-01-15
+---
 To all the Unix utility authors, Thank You!
 
 The concept of line by line data processing using sed, grep, awk, etc is so powerful when searching through log files and such. Today, I wanted to filter links for a bunch of files in google drive. I used rclone's lsjson (machine readable output is awesome) and piped it into jq. 
