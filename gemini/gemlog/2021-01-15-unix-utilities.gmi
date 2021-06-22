@@ -1,0 +1,19 @@
+# Unix stuff 
+
+To all the Unix utility authors, Thank You!
+
+The concept of line by line data processing using sed, grep, awk, etc is so powerful when searching through log files and such. Today, I wanted to filter links for a bunch of files in google drive. I used rclone's lsjson (machine readable output is awesome) and piped it into jq. 
+
+I had never really explored jq before and mostly used it as a formatter. Now, with one(albeit long) expression, I was able to filter that output according to path name and rearrange the ID output by rclone into a URL. The sheer compact power of Unix tools surprise me. This could definitely be done in a 'real' programming language, but would be much more verbose. I can't even imagine past me trying to do with random windows GUI tools, before I could code. Though some might not consider it 'real' programming; and yes, they are nowhere near as powerful for complex applications; spreadsheets also enable people to organize data. Information. Our never ending quest to organize knowledge and information is after all what makes us human.
+
+Now this might be a controversial opinion, but some credit for my success with data organizing today also has to go to me trying to install Arch Linux (btw) without a script. Being forced to use the terminal for those hours made it less daunting to me. And, my affinity for the terminal increased over time. Similarly with vi, while vim in itself might not be my IDE of choice forever, the keybindings have introduced a sort of discipline in my coding and writing in general (this probably also applies to other heavily keyboard based text editors like emacs, though I haven't tried it *yet*).
+
+This post started out as a Toot (mastodon) and is now a blog post lol. The jq code, while nothing significant is below.
+
+```bash
+rclone lsjson schoolDrive:scioly/ --dirs-only --no-mimetype --original -R | jq '[.[] | label $OUT | \
+.Path=.Path | "https://drive.google.com/drive/folders/\(.ID)" as $ID | .Path | split("/")| \
+if length == 2 then .[1] else break $OUT end| {Path: ., URL: $ID}] | sort_by(.Path)'
+```
+
+This, like every other shell one-liner made for one time use is perhaps very difficult to understand, but was written with **many** iterations.

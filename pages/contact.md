@@ -23,7 +23,7 @@ The following are roughly according to frequency of use.
 
 * [Mastodon](https://social.linux.pizza/@karmanyaahm){: rel="me"} - karmanyaahm@social.linux.pizza
 * [Reddit](https://www.reddit.com/user/karmaths) - u/karmaths
-* [Pixelfed](https://pixfed.com/karmanyaahm) - karmanyaahm@pixfed.com
+* ~~[Pixelfed](https://pixfed.com/karmanyaahm) - karmanyaahm@pixfed.com~~ no
 * [Twitter](https://twitter.com/karmanyaahm) - @karmanyaahm
 
 ## Identity Verification
