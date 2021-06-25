@@ -17,6 +17,9 @@
   	{% endif %}
 
 	{% for post in site.gemlog %}
+	{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+	{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+	{% if posttime < nowunix or post.published or site.future  %}
 	<entry>
 		<title>{{ post.title }}</title>
 		<id>{{ post.relative_path }}</id>
@@ -24,5 +27,6 @@
 		<updated>{{post.date | date_to_xmlschema}}</updated>
 		<summary>{{post.content | newline_to_br | split: "<br />" | slice: 0,1 | join: ""| strip  }}</summary>
 	</entry>
+	{% endif %}
 	{% endfor %}
 </feed>

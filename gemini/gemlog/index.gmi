@@ -4,7 +4,7 @@
 # {{site.author.name}}'s gemlog
 
 ## My Posts
-{% for post in site.gemlog %}
-=> {{post.url | relative_url | split: "/" | slice: 3,9999 | join: "/" }} {{post.date | date: "%Y-%m-%d"}} - {{post.title}}{% endfor %}
+{% for post in site.gemlog %}	{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}	{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}  {% if posttime < nowunix or post.published or site.future  %}
+=> {{post.url | relative_url | split: "/" | slice: 3,9999 | join: "/" }} {{post.date | date: "%Y-%m-%d"}} - {{post.title}}{%endif%}{% endfor %}
 
 => atom.xml Atom Feed
