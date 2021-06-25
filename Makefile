@@ -1,10 +1,11 @@
+SHELL=/bin/bash
 default: run
 
 run:
-	bundle exec jekyll serve
+	bundle exec jekyll serve $(ARGS)
 
 build: 
-	JEKYLL_ENV="production" bundle exec jekyll build
+	JEKYLL_ENV="production" bundle exec jekyll build $(ARGS)
 deploy: build
 	./_deploy.sh
 assets-update:
@@ -12,3 +13,5 @@ assets-update:
 	mkdir -p ./assets/vendor/gc.zgo.at/
 	@# pulls latest count
 	wget https://gc.zgo.at/count.js -O ./assets/vendor/gc.zgo.at/count.js --no-verbose
+patch:
+	patch -p0 < _patches/*

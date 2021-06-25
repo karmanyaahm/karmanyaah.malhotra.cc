@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" exclude-result-prefixes="atom">
+<xsl:output method="html" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes"/>
+
+<xsl:template match="atom:feed">
+ <html>
+  <head>
+   <xsl:call-template name="title"/>
+   <link rel="alternate" type="application/atom+xml" href="index.xml" title="Feed"/>
+   <xsl:call-template name="style"/>
+  </head>
+  <body>
+   <h1>
+    <xsl:value-of select="atom:title"/>
+   </h1>
+   <table id="updated-ascending">
+    <caption>Entries sorted by update timestamp, ascending</caption>
+    <xsl:call-template name="tableheader"/>
+    <xsl:for-each select="atom:entry">
+     <xsl:sort select="atom:updated" order="ascending"/>
+     <xsl:call-template name="entry"/>
+    </xsl:for-each>
+   </table>
+   <table id="title-ascending">
+    <caption>Entries sorted by title, ascending</caption>
+    <xsl:call-template name="tableheader"/>
+    <xsl:for-each select="atom:entry">
+     <xsl:sort select="atom:title" order="ascending"/>
+     <xsl:call-template name="entry"/>
+    </xsl:for-each>
+   </table>
+   <table id="published-ascending">
+    <caption>Entries sorted by publication timestamp, ascending</caption>
+    <xsl:call-template name="tableheader"/>
+    <xsl:for-each select="atom:entry">
+     <xsl:sort select="atom:published" order="ascending"/>
+     <xsl:call-template name="entry"/>
+    </xsl:for-each>
+   </table>
+   <table id="updated-descending">
+    <caption>Entries sorted by update timestamp, descending</caption>
+    <xsl:call-template name="tableheader"/>
+    <xsl:for-each select="atom:entry">
+     <xsl:sort select="atom:updated" order="descending"/>
+     <xsl:call-template name="entry"/>
+    </xsl:for-each>
+   </table>
+   <table id="title-descending">
+    <caption>Entries sorted by title, descending</caption>
+    <xsl:call-template name="tableheader"/>
+    <xsl:for-each select="atom:entry">
+     <xsl:sort select="atom:title" order="descending"/>
+     <xsl:call-template name="entry"/>
+    </xsl:for-each>
+   </table>
+   <table id="published-descending">
+    <caption>Entries sorted by publication timestamp, descending</caption>
+    <xsl:call-template name="tableheader"/>
+    <xsl:for-each select="atom:entry">
+     <xsl:sort select="atom:published" order="descending"/>
+     <xsl:call-template name="entry"/>
+    </xsl:for-each>
+   </table>
+   <xsl:call-template name="footer"/>
+  </body>
+ </html>
+</xsl:template>
+
+<xsl:template name="entry">
+ <tr>
+  <td>
+   <a>
+    <xsl:attribute name="href">
+     <xsl:value-of select="atom:link[@rel='alternate']/@href"/>
+    </xsl:attribute>
+    <xsl:value-of select="atom:title"/>
+   </a>
+   </td>
+   <td>
+    <time>
+     <xsl:attribute name="datetime">
+      <xsl:value-of select="atom:published"/>
+      </xsl:attribute>
+     <xsl:value-of select="substring(atom:published, 0, 11)"/>
+    </time>
+   </td>
+   <td>
+    <time>
+     <xsl:attribute name="datetime">
+      <xsl:value-of select="atom:updated"/>
+     </xsl:attribute>
+    <xsl:value-of select="substring(atom:updated, 0, 11)"/>
+   </time>
+  </td>
+ </tr>
+</xsl:template>
+
+<xsl:template match="/atom:entry">
+ <html>
+   <head>
+    <xsl:call-template name="title"/>
+    <link rel="alternate" type="application/atom+xml">
+     <xsl:attribute name="href">
+      <xsl:value-of select="atom:link[@rel='self']/@href"/>
+     </xsl:attribute>
+     <xsl:attribute name="title">Feed</xsl:attribute>
+    </link>
+    <xsl:call-template name="style"/>
+   </head>
+   <body>
+    <article>
+     <h1><xsl:value-of select="atom:title"/></h1>
+     <xsl:variable name="type" select="atom:content/@type"/>
+     <xsl:choose>
+     <xsl:when test="$type = 'xhtml'">
+      <xsl:copy-of select="atom:content/child::*"/>
+     </xsl:when>
+     <xsl:otherwise>
+      <pre>
+       <xsl:value-of select="atom:content" disable-output-escaping="no"/>
+      </pre>
+     </xsl:otherwise>
+     </xsl:choose>
+     <xsl:for-each select="atom:link[@rel='enclosure']">
+      <a>
+      <xsl:variable name="url" select="atom:link/@href"/>
+      <xsl:attribute name="href">
+       <xsl:value-of select="atom:link/@href"/>
+      </xsl:attribute>
+      <xsl:value-of select="atom:link/@href"/>
+      </a>
+     </xsl:for-each>
+     <footer>
+      <time>
+       <xsl:attribute name="datetime">
+        <xsl:value-of select="atom:published"/>
+       </xsl:attribute>
+       <xsl:value-of select="substring(atom:published, 0, 11)"/>
+       <xsl:text> </xsl:text>
+       <xsl:value-of select="substring(atom:published, 12, 5)"/>
+      </time>
+      <xsl:text> – </xsl:text>
+      <time>
+       <xsl:attribute name="datetime">
+        <xsl:value-of select="atom:updated"/>
+       </xsl:attribute>
+       <xsl:value-of select="substring(atom:updated, 0, 11)"/>
+       <xsl:text> </xsl:text>
+       <xsl:value-of select="substring(atom:updated, 12, 5)"/>
+      </time>
+      <xsl:variable name="email" select="atom:author/atom:email"/>
+      <xsl:variable name="title" select="atom:title"/>
+      <a href="mailto:{$email}?subject=Re:{$title}" rel="author">
+       <xsl:value-of select="atom:author/atom:name"/>
+      </a>
+     </footer>
+    </article>
+   <xsl:call-template name="footer"/>
+  </body>
+ </html>
+</xsl:template>
+
+<xsl:template name="style">
+ <style>
+	 article :target{outline:1px dashed;outline-offset:0.75em;}
+*{margin:0;padding:0;font-family:sans-serif;font-style:normal;font-weight:normal}
+html{font-family:sans-serif;line-height:1.5;margin:3em;min-width:16.5em}
+article,head,p,table,dl,ul,ol{margin-bottom:1.5em}
+code+p,kbd+p,pre+p,samp+p{margin-top:1.5em}
+table{border-collapse:collapse}
+table td,table th{padding:0.75em}
+table td{border:1px solid #ccc}
+td ul,td ol{margin:0 0 0 0.75em}
+h1{font-size:3em;margin-bottom:0.5em}
+section>h1{font-size:1.5em;margin:1em 0}
+section>section>h1{font-size:1.25em;margin:1.2em 0}
+footer{margin-top:1.5em}
+dd{text-indent:1.5em}
+td{min-width:4.5em;vertical-align:top}
+dfn{border-bottom:3px double;}
+code,kbd,pre,samp{font-family:monospace;white-space:pre-wrap;}
+img,audio,video{max-width:100%;}
+figure>img,table{width:100%;}
+b,strong{font-weight:bold;}
+cite{font-variant:small-caps;}
+i,var{font-style:italic;}
+q{quotes:'„' '“' '‚' '‘';}
+blockquote{margin:1.5em;}
+figure{margin:3em 1.5em;}
+figcaption{margin:1.5em 0;}
+body,article{counter-reset:section}
+section{counter-increment:section;counter-reset:figure}
+figure{counter-increment:figure}
+figcaption:before{content:"Fig. " counter(section) "." counter(figure)":";font-weight:bold;}
+ins{text-decoration:none;}
+table.posts td+td{width:6em}
+ins::before,ins>p:first-child::before{content:'⌊';}
+ins::after,ins>p:last-child::after{content:'⌋';}
+p~ins::before,p~ins::after{content:'';}
+footer a[rel=author]{display:inline-block;float:right;}
+
+  #published-ascending,
+  #updated-ascending,
+  #title-ascending,
+  #updated-descending,
+  #title-descending {display:none}
+  #published-ascending:target,
+  #updated-ascending:target,
+  #title-ascending:target,
+  #updated-descending:target,
+  #title-descending:target {display:table}
+  #published-ascending:target ~ #published-descending,
+  #updated-ascending:target ~ #published-descending,
+  #title-ascending:target ~ #published-descending,
+  #updated-descending:target ~ #published-descending,
+  #title-descending:target ~ #published-descending {display:none}
+ </style>
+</xsl:template>
+
+<xsl:template name="tableheader">
+ <tr>
+  <th>
+   Title
+   <a href="#title-ascending">▴</a> 
+   <a href="#title-descending">▾</a>
+  </th>
+  <th>
+   Published
+   <a href="#published-ascending">▴</a> 
+   <a href="#published-descending">▾</a>
+  </th>
+  <th>
+   Updated
+   <a href="#updated-ascending">▴</a> 
+   <a href="#updated-descending">▾</a>
+  </th>
+ </tr>
+</xsl:template>
+
+<xsl:template name="title">
+ <title>
+  <xsl:value-of select="atom:title"/>
+ </title>
+</xsl:template>
+
+<xsl:template name="footer">
+ <footer>
+  <xsl:for-each select="atom:link[@rel='version-history']">
+   <p>Version history: <kbd>git clone <xsl:value-of select="@href"/></kbd></p>
+  </xsl:for-each>
+  <small>This page is generated from an <i>Atom</i> feed with <a href="feed.xslt.xml">an <abbr title="Extensible Stylesheet Language Transformations">XSLT</abbr> stylesheet</a>. That stylesheet is free software released under the terms of the <a href="http://www.gnu.org/licenses/agpl-3.0.txt"><abbr title="GNU is Not Unix">GNU</abbr> <abbr title="Affero General Public License">AGPL</abbr></a>, either version 3 of the License, or (at your option) any later version. - Thanks to <a href="http://news.dieweltistgarnichtso.net">dieweltistgarnichtso.net</a> for releasing this as free software.</small>
+ </footer>
+</xsl:template>
+
+</xsl:stylesheet>
