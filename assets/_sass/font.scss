@@ -1,7 +1,10 @@
-/* latin */
-@font-face {
-  font-family: 'Abril Fatface';
-  font-style: normal;
-  font-weight: 400;
-  src: url($assets-path + "/fonts/AbrilFatface-Regular.woff2") format('woff2');
+///* latin */
+//@font-face {
+//  font-family: 'Abril Fatface';
+//  font-style: normal;
+//  font-weight: 400;
+//  src: url($assets-path + "/fonts/AbrilFatface-Regular.woff2") format('woff2');
+//}
+#sidebar .site-title {
+    font-family: monospace;
 }
