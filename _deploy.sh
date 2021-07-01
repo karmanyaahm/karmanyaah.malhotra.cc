@@ -22,7 +22,7 @@ else
 	ipfs files cp /ipfs/$CID "$LOC/$(date +%F_%T)"
 fi
 
-RECORD_DOMAIN="_dnslink.$KEY"
+RECORD_DOMAIN="_dnslink.$DOMAIN"
 
 # password is token and custom fields called zone and for each record
 SECRETS="$(rbw get $BW_ENTRY --full)"
