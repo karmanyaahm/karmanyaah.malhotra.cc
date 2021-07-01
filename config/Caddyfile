@@ -1,0 +1,4 @@
+@static {
+  path *.ico *.css *.js *.gif *.jpg *.jpeg *.png *.svg *.woff
+}
+header @static Cache-Control max-age=300

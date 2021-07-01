@@ -2,25 +2,20 @@
   <section class="comments">
     <h2>Comments</h2>
 
-<link rel="stylesheet" href="{{site.assets_path}}/vendor/latest.cactus.chat/style.css" type="text/css">
-<script type="text/javascript" src="{{site.assets_path}}/vendor/latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="{{site.assets_path}}/vendor/latest.cactus.chat/style.css" type="text/css" rel="preload" as="style">
+<script type="text/javascript" src="{{site.assets_path}}/vendor/latest.cactus.chat/cactus.js"
+data-node="#cactus-comment-section"
+data-default-homeserver-url="https://matrix.malhotra.cc"
+data-server-name="malhotra.cc"
+data-site-name="karmanyaah.malhotra.cc"
+data-comment-section-id="{{page.commentslug}}"
+async
+	></script>
 <div id="cactus-comment-section">
-	waiting ...
-<noscript>This website uses <a href=https://cactus.chat>cactus.chat</a>, a comment system written in Javascript. It appears that Javascript is disabled or not working on your browser. You can go to <a href="https://matrix.to/#/#comments_karmanyaah.malhotra.cc_{{page.commentslug}}:malhotra.cc">#comments_karmanyaah.malhotra.cc_{{page.commentslug}}:malhotra.cc</a> on Matrix to comment.</noscript>
+	comments loading...
+	<noscript><br>This website uses <a href=https://cactus.chat>cactus.chat</a>, a comment system written in Javascript. It appears that Javascript is disabled or not working on your browser. You can go to <a href="https://matrix.to/#/#comments_karmanyaah.malhotra.cc_{{page.commentslug}}:malhotra.cc">#comments_karmanyaah.malhotra.cc_{{page.commentslug}}:malhotra.cc</a> on Matrix to comment.</noscript>
 </div>
 
-<script>
-	setTimeout(function() {
-  	initComments({
-                node: document.getElementById("cactus-comment-section"),
-                defaultHomeserverUrl: "https://matrix.malhotra.cc",
-                serverName: "malhotra.cc",
-                siteName: "karmanyaah.malhotra.cc",
-                commentSectionId: "{{ page.commentslug }}",
-                loginEnabled: false,
-              }) ;
-	}, 5000);
-</script>
   </section>
 
 {% endif %}
