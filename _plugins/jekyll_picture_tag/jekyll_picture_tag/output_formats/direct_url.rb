@@ -1,0 +1,11 @@
+#module PictureTag
+#  module OutputFormats
+#    # Represents a bare url you can use in another context, such as a direct
+#    # link, but keep the resizing functionality
+#    class DirectUrl < Basic
+#      def to_s
+#        build_base_img.src
+#      end
+#    end
+#  end
+#end

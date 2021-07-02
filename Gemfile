@@ -4,6 +4,10 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-seo-tag'
     gem "jekyll-last-modified-at"
+    gem "objective_elements"
+    gem "mime-types"
+
+    gem "jekyll-purgecss"
   end
 
 gem "jekyll-theme-hydeout", "~> 4.1"
