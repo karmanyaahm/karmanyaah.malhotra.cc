@@ -12,7 +12,7 @@ Jekyll::Hooks.register :site, :post_write do |page|
     print matcher," ",@cid,"\n"
     @dirname = File.basename(matcher)
     print `#{@finder} perl -pi -e 's#<[ ]*ipfs_asset>#{matcher}(.*?)"#/ipfs/#{@cid}/#{@dirname}\\1"#g' {} +`
-    print `mkdir -p _site/ipfs/#{@cid}/ && cp -r #{location} "$_"`
+    print `mkdir -p _site/ipfs/#{@cid}/ && mv #{location} "$_"`
   end
   print `#{@finder} grep '<[ ]*ipfs_asset>' {} +`
 end
