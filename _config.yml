@@ -22,6 +22,11 @@ defaults:
       type: "gemlog"
     values:
       layout: "gemlog"
+      sitemap: false
+  - scope:
+      path: "gemini"
+    values:
+      sitemap: false
 collections:
   gemlog:
     output: true

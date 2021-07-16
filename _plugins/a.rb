@@ -1,1 +1,0 @@
-require_relative "jekyll_picture_tag/jekyll_picture_tag.rb"
