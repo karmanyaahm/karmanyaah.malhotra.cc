@@ -1,0 +1,11 @@
+--- _bundle/ruby/3.0.0/gems/jekyll-theme-hydeout-4.2.0/_includes/head.html	2021-07-16 11:17:25.577853599 -0500
++++ _bundle/ruby/3.0.0/gems/jekyll-theme-hydeout-4.2.0/_includes/head.html	2021-07-16 11:18:18.364850836 -0500
+@@ -17,7 +17,7 @@
+   {% include google-analytics.html %}
+ 
+   <!-- CSS -->
+-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
++  <link rel="stylesheet" href="<ipfs_asset>/css/main.css" />
+   {% include font-includes.html %}
+ 
+   <!-- Icons -->
