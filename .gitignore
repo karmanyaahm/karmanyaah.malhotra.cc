@@ -1,6 +1,6 @@
 node_modules
-_assets/vendor/*
-!_assets/vendor/.gitkeep
+assets/vendor/*
+!assets/vendor/.gitkeep
 
 .vscode
 /.vscode

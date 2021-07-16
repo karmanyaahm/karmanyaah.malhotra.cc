@@ -1,5 +1,1 @@
-@static {
-  path *.ico *.css *.js *.gif *.jpg *.jpeg *.png *.svg *.woff
-}
-header @static Cache-Control max-age=300
-header /ipfs/* Cache-Control immutable,max-age=31536000
+header /ipfs/* Cache-Control "immutable,max-age=31536000"
