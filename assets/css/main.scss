@@ -8,3 +8,12 @@ $assets-path: '{{site.assets_path}}';
 @import "hydeout";
 @import "font";
 
+
+
+h1 .octicon, h2 .octicon, h3 .octicon, h4 .octicon, h5 .octicon, h6 .octicon  {
+  visibility: hidden;
+}
+
+h1:hover .octicon, h2:hover .octicon, h3:hover .octicon, h4:hover .octicon, h5:hover .octicon, h6:hover .octicon {
+  visibility: visible;
+}
