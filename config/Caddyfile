@@ -1,1 +1,5 @@
 header /ipfs/* Cache-Control "immutable,max-age=31536000"
+header /ipfs/* -date
+header /ipfs/* -etag
+header /ipfs/* -vary
+header /ipfs/* -last-modified

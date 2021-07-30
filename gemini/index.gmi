@@ -1,5 +1,8 @@
 # Karmanyaah Malhotra
 => gemlog/ my gemlog
 
+Also check out my IETF mirror, hosted on IPFS, gatewayed on HTTP and Gemini at
+=> gemini://ietf.karmanyaah.malhotra.cc IETF Mirror
+
 This capsule is not fully ready yet(apart from the gemlog) you can find me 
 => https://karmanyaah.malhotra.cc at my website

@@ -4,8 +4,9 @@ default: run
 run:
 	bundle exec jekyll serve $(ARGS)
 
-build: 
+build: clean
 	JEKYLL_ENV="production" bundle exec jekyll build $(ARGS)
+	find _site -name '*.*' -type f -exec brotli --best --keep --force {} +
 deploy: build
 	./_deploy.sh
 assets-update:

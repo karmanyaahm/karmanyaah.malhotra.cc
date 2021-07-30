@@ -1,6 +1,7 @@
 ---
 title: New Gemlog Deployment!
 commentslug: 21-06-gem-deployment
+date: 9999-06-22
 ---
 
 hi
