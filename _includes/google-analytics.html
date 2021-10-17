@@ -1,3 +1,6 @@
 {% if jekyll.environment == 'production' and site.analytics %}
-<script data-goatcounter="https://kar.goatcounter.com/count" data-goatcounter-settings='{"allow_local": true}'  async src="<ipfs_asset>/vendor/gc.zgo.at/count.min.js"></script>
+<script data-goatcounter="{{ "/count" | absolute_url }}" data-goatcounter-settings='{"allow_local": true}'  async src="<ipfs_asset>/vendor/gc.zgo.at/count.min.js"></script>
+<noscript>
+	<img src="{{ '/count' | absolute_url }}?p={{page.url}}&t={{page.title}}">
+</noscript>
 {% endif %}
