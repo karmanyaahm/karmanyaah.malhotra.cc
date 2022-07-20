@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/karmanyaahm/karmanyaahm.github.io#readme",
   "dependencies": {
+    "mathjax": "^3.2.1",
     "purgecss": "^4.0.3",
     "uglify-js": "^3.13.10"
   }
