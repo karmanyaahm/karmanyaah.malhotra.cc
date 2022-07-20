@@ -6,7 +6,6 @@ group :jekyll_plugins do
     gem "jekyll-last-modified-at"
 
     gem "jekyll-purgecss"
-    gem 'octopress-minify-html'
   end
 
 gem "jekyll-theme-hydeout", "~> 4.1"

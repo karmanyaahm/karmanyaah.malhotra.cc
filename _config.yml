@@ -92,14 +92,14 @@ sass:
   sass_dir: assets/_sass
   style: compressed
     #
-compress_html:
-    #  clippings: []
-    #  comments: []
-    #  endings: []
-    #  ignore:
-    #    envs: []
-    #  blanklines: false
-    #  profile: false
-    #  startings: []
-    #  #testing
-
+    #compress_html:
+    #    clippings: []
+    #    comments: []
+    #    endings: []
+    #    ignore:
+    #      envs: []
+    #    blanklines: false
+    #    profile: false
+    #    startings: []
+    #    #testing
+    #
