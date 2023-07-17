@@ -10,8 +10,7 @@ Updated in March 2022
 
 ### Code Projects
 
-* [Github](https://github.com/karmanyaahm) -  Basically all my publishable code
-* [UnifiedPush](https://unifiedpush.org) is the most important project I'm currently part of
+* Check out my [Portfolio of Work](/portfolio/)
 
 ### Other Projects
 
@@ -52,12 +51,15 @@ not updated since:
 
 ## Standardized Testing
 
+### ACT
+* Sep 2022: 35/36 - 36 Math - 36 Science - 34 Reading - 32 English Writing
+
 ### SAT
-* TBD - March 2021
+* Mar 2022: 1480/1600 - 790/800 Math - 690/800 Reading & Writing
 #### PSAT
 
-* Oct 2021: 1460/1520 - 700/760 Reading & Writing - 760/760 Math 
-* Oct 2020: 1380/1520 - 650/760 Reading & Writing - 730/760 Math
+* Oct 2021: 1460/1520 - 760/760 Math - 700/760 Reading & Writing
+* Oct 2020: 1380/1520 - 730/760 Math - 650/760 Reading & Writing
 
 ### AP
 
@@ -79,4 +81,5 @@ not updated since:
    {%endif%}
 {%endfor%}
 </ul>
+
 

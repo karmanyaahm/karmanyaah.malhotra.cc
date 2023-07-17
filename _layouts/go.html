@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>{%comment%}this pageurl hack is hella jank, taking advantage of the fact that path is the same as the go url for the most part{% endcomment %}{% capture fancy_url %}{%assign sz = page.url.size | minus: 2%}{{page.url | slice: 1,sz}}{% endcapture %}{% capture target_url %}{{page.target_url}}{% endcapture %}{% capture mod_name %}{{page.title}}{% endcapture %}
+<meta name="go-import" content="{{fancy_url}} git https://{{target_url}}.git">
+  <meta name="go-source" content="{{fancy_url}} https://{{target_url}} https://{{target_url}}/tree/main{/dir} https://{{target_url}}/blob/main{/dir}/{file}#L{line}">
+  <style>body{font-family:sans-serif;text-align:center;}</style>
+  <title>My Go Project - {{mod_name}}</title>
+</head>
+<body>
+  <h1>My Go Project - {{mod_name}}</h1>
+More Info: <a href="//{{target_url}}">{{target_url}}</a>
+<br>
+API Docs: <a href="//godocs.io/{{fancy_url}}">godocs.io</a>
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+---
+permalink: /k.malhotra.cc/_redirects
+---
+/go/:thing/* /go/:thing/ 302
+/* https://karmanyaah.malhotra.cc/:splat 302 
+/ https://karmanyaah.malhotra.cc/ 302 

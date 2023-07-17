@@ -4,10 +4,26 @@
 
 $sidebar-width: 23rem !default; //my name doesnt fit in default :(
 $assets-path: '{{site.assets_path}}';
+$large-breakpoint: 60rem;
 
 @import "hydeout";
 @import "font";
 
+.extended-image-list {
+	width: 100vw;
+	figure {
+		margin: auto;
+	}
+}
+@media (min-width: $large-breakpoint) {
+	.extended-image-list {
+		width: calc(calc(100vw - $sidebar-width) - 4rem);
+		//padding-right: 2rem;
+		figure {
+			padding: 1rem;
+		}
+	}
+}
 
 
 h1 .octicon, h2 .octicon, h3 .octicon, h4 .octicon, h5 .octicon, h6 .octicon  {

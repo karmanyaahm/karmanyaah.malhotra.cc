@@ -1,0 +1,19 @@
+---
+layout: none
+permalink: /k.malhotra.cc/go/
+---
+
+<!DOCTYPE html>
+<head>
+  <title>My Go Projects</title>
+  <style>body{font-family:sans-serif;text-align:center;}</style>
+</head>
+<body>
+  <h1>My Go Projects</h1>
+<ul>
+{% for mod in site.go %}
+<li><a href="./{{mod.url | split: "/" | slice: -1,1}}">{{mod.title}}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>

@@ -4,6 +4,7 @@ header /ipfs/* -etag
 header /ipfs/* -vary
 header /ipfs/* -last-modified
 
+# TODO make this work only on my domain
 reverse_proxy /count https://kar.goatcounter.com {
 	header_up Host kar.goatcounter.com
 	header_up X-Real-IP {remote_host}

@@ -24,6 +24,12 @@ defaults:
       layout: "gemlog"
       sitemap: false
   - scope:
+      path: ""
+      type: "go"
+    values:
+      layout: "go"
+      sitemap: false
+  - scope:
       path: "gemini"
     values:
       sitemap: false
@@ -31,11 +37,14 @@ collections:
   gemlog:
     output: true
     permalink: /gemini/gemlog/:path:output_ext
+  go:
+    output: true
+    permalink: /k.malhotra.cc/go/:path/
 
 url: "https://karmanyaah.malhotra.cc" #for sitemap
 domain: karmanyaah.malhotra.cc
 
-paginate:         5
+paginate:         15
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -103,3 +112,6 @@ sass:
     #    startings: []
     #    #testing
     #
+    #
+
+

