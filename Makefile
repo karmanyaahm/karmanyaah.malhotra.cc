@@ -17,6 +17,11 @@ assets-update:
 	mkdir -p ./assets/vendor/gc.zgo.at/
 	@# pulls latest count
 	wget https://gc.zgo.at/count.js -O ./assets/vendor/gc.zgo.at/count.js --no-verbose
+
+	# download mathjax and do stuff TODO
+	
+	mkdir -p assets/vendor/mathjax
+	curl https://registry.npmjs.org/mathjax/-/mathjax-3.2.1.tgz | tar -C assets/vendor/mathjax -xzv package/es5 --strip-components=2
 patch:
 	(cat _patches/*) | patch -p0
 clean:

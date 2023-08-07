@@ -1,0 +1,3 @@
+scioctf{rizz_42_y0u_4r3_7h3_H3x_2A-ff1c14l_w1z4rd_5f436f}
+
+Hey, I heard of this fun new encoding called base64? Apparently if you can use it you automatically have very high hackery rizz. Can you decode this? c2Npb2N0Zntzb3JyeV9pbV9zb19vdXRfb2ZfaWRlYXM6XyhfNjQ2NTVmfQ

@@ -52,7 +52,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-purgecss
 #    github default
 #   jekyll-coffeescript
 #  jekyll-default-layout

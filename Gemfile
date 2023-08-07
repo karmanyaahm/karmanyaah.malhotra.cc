@@ -5,8 +5,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem "jekyll-last-modified-at"
       gem 'jekyll-postfiles'
-
-    gem "jekyll-purgecss"
   end
 
 gem "jekyll-theme-hydeout", "~> 4.1"
