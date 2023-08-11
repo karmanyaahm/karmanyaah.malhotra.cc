@@ -1,0 +1,9 @@
+---
+layout: none
+---
+User-agent: GPTBot
+Disallow: /
+User-agent: *               
+Allow: /
+Sitemap: {{ "sitemap.xml" | absolute_url }}
+
