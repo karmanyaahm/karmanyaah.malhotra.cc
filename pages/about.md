@@ -8,19 +8,17 @@ title: About Me
 Updated in March 2022
 ## Profile/Resume
 
-### Code Projects
+### Projects
 
-* Check out my [Portfolio of Work](/portfolio/)
-
-### Other Projects
-
-* [Hackaday](https://hackaday.io/karmanyaahm) - A few projects on there
+* Check out my [Full Portfolio of Work](/portfolio/)
 
 ### Work
 
+1. University of Texas at Austin - Computer Science
+   - Aug 2023 - Present
 1. Belton High School
    1. Vex Robotics Competition
-     * Sep 2021 - Present
+     * Sep 2021 - Feb 2023
      * Team [76513B](https://www.robotevents.com/teams/VRC/76513B)
      * primary Programmer and co-Designer
      * 2021-22 - Tipping Point: Design Award (4th best award, 3rd best team by awards) at States - Qualified for the World Championship
@@ -41,9 +39,11 @@ not updated since:
    3. [First Robotics Competition](https://www.firstinspires.org/robotics/frc)
       * Sep 2019 - May 2021
       * Junior Programmer @ Bison Robotics (Team 695)
-      * <https://frc-events.firstinspires.org/2020/team/695>
-      * <https://www.thebluealliance.com/team/695>
-      * <https://github.com/FRCTeam695>
+      * {% details Websites %}
+* <https://frc-events.firstinspires.org/2020/team/695>
+* <https://www.thebluealliance.com/team/695>
+* <https://github.com/FRCTeam695>
+        {% enddetails %}
 2. Beachwood Middle School
    1. Science Olympiad
      * Sep 2018 - March 2020
@@ -55,20 +55,29 @@ not updated since:
 * Sep 2022: 35/36 - 36 Math - 36 Science - 34 Reading - 32 English Writing
 
 ### SAT
-* Mar 2022: 1480/1600 - 790/800 Math - 690/800 Reading & Writing
-#### PSAT
+* Oct 2022: 1560/1600 - 800/800 Math - 760/800 Reading & Writing
+<!--* Mar 2022: 1480/1600 - 790/800 Math - 690/800 Reading & Writing-->
+
+### PSAT
 
 * Oct 2021: 1460/1520 - 760/760 Math - 700/760 Reading & Writing
-* Oct 2020: 1380/1520 - 730/760 Math - 650/760 Reading & Writing
+<!--* Oct 2020: 1380/1520 - 730/760 Math - 650/760 Reading & Writing-->
 
 ### AP
 
 5 (out of 5)
-: AP Calculus AB (May 2020)
-: AP Calculus BC (May 2021)
-: AP Physics 1 (May 2021)
-: AP Physics 2 (May 2021)
-: AP Computer Science A (May 2021)
+: AP Calculus AB (2020)
+: AP Calculus BC (2021)
+: AP Physics 1 (2021)
+: AP Physics 2 (2021)
+: AP Computer Science A (2021)
+: AP Physics C Mechanics (2022)
+: AP Physics C E&M (2022)
+: AP Psychology (2022)
+: AP Statistics (2022)
+: AP Macroeconomics (2023)
+: AP Chemistry (2023)
+<!-- 3 on AP Gov -->
 
 ## [Contact](/contact/)
 

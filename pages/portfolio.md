@@ -75,6 +75,8 @@ Most of my work is in Python, Dart, or Go. Some domain-specific C++.
 
 ### Random
 <div class="extended-image-list">
+{% capture postlink %}{% post_url 2023-08-11-totpv2/2023-08-11-totpv2 %}{% endcapture %}
+{% include imagebox.html img="/assets/images/projects/random-totp-1.webp" width="20rem" title="Airgapped, E-Ink TOTP Device" url=postlink %}
 {% capture postlink %}{% post_url 2022-12-27-rubber-ducky1/2022-12-27-rubber-ducky1 %}{% endcapture %}
 {% include imagebox.html img="/assets/images/projects/random-rubberducky-1.webp" width="20rem" title="Project Oreo: Fast, cheap keystroke injection device v1" url=postlink %}
 {% include imagebox.html img="/assets/images/projects/random-scioly-test-1.webp" width="20rem" title="Science Olympiad Test Organizer" url="" %}
