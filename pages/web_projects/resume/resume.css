@@ -1,0 +1,107 @@
+body {
+    margin: .5in;
+    margin-top: .3in;
+    font-family: "calibri", sans;
+    font-size: 11pt;
+}
+
+header {
+    font-family: sans;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+header span {
+    font-size: 10pt;
+    float: right;
+}
+
+section h2 {
+    font-family: sans;
+    font-size: 14pt;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+}
+
+section p {
+    margin-left: 40px;
+}
+
+section.coverletter {
+    margin-top: 40px;
+}
+
+section.coverletter p {
+    margin-left: 0px;
+}
+
+section ul {
+    list-style-type: circle;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.jobtable {
+    display: table;
+    width: calc(100% - 20px);
+    margin-left: 20px;
+}
+
+.edtable {
+    display: table;
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.skillstable {
+    display: table;
+    width: 100%;
+}
+
+.table {
+    display: table;
+    margin-left: 20px;
+}
+
+.tablerow {
+    display: table-row;
+}
+
+.jobtitle {
+    display: table-cell;
+    /*font-style: italic;*/
+    font-weight: bold;
+}
+
+.right {
+    display: table-cell;
+    text-align: right;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.onlinecell {
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.urlcell {
+    display: table-cell;
+    letter-spacing: 1px;
+}
+
+.pagebreak {
+    page-break-before: always;
+}

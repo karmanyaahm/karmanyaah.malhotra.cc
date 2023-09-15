@@ -1,3 +1,4 @@
+big_files
 node_modules
 assets/vendor/*
 !assets/vendor/.gitkeep
