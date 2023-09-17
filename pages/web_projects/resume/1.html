@@ -1,0 +1,299 @@
+---
+layout: none
+minify_html: false
+---
+
+<!DOCTYPE HTML>
+
+<!--resume template from: https://github.com/jiffyclub/html-css-resume-template; thanks jiffyclub-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Karmanyaah Malhotra | Resume</title>
+    <link href="./resume.css" rel="stylesheet" type="text/css">
+   {% include google-analytics.html %}
+</head>
+
+<body>
+    <header id="info">
+        <h1>Karmanyaah Malhotra</h1>
+        <span>Austin, TX | karmanyaah@malhotra.cc | <a href="https://k.malhotra.cc/portfolio/">https://k.malhotra.cc/portfolio/</a> | <a href="https://github.com/karmanyaahm">github.com/karmanyaahm</a></span>
+    </header>
+    <!--section id="statement">
+        <h2>Statement of Purpose</h2>
+        <p>First, I believe that this nation should commit itself to achieving
+            the goal, before this decade is out, of landing a man on the moon
+            and returning him safely to the earth. No single space project in
+            this period will be more impressive to mankind, or more important
+            for the long-range exploration of space; and none will be so
+            difficult or expensive to accomplish.</p>
+    </section-->
+   <section id="education">
+        <h2>Education</h2>
+        <div class="edtable">
+            <div class="tablerow">
+                <span class="jobtitle">Bachelor of Science, Computer Science</span>
+                <span class="right">May 2027</span>
+            </div>
+            <div class="tablerow">
+                <span>University of Texas at Austin</span>
+                <span class="right">Austin, TX</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="employment">
+        <h2>Experience</h2>
+        <section>
+            <div class="jobtable">
+            <div class="tablerow">
+                <span class="jobtitle">OnBoard Ambassador</span>
+                <span class="right">June 2023 - Present</span>
+            </div>
+            <div class="tablerow">
+                <span>Hack Club</span>
+                <span class="right"></span>
+            </div>
+            </div>
+            <ul>
+                <li>Reviewed $100 PCB grant applications for teens</li>
+                <li>Guided many students through their first PCB design and manufacturing process; provided support, ideas, and verification to advanced students.</li>
+            </ul>
+        </section>
+        <section>
+            <div class="jobtable">
+            <div class="tablerow">
+                <span class="jobtitle">Network Admin/Teaching Assistant</span>
+                <span class="right">Aug 2022 - May 2023</span>
+            </div>
+            <div class="tablerow">
+                <span>Belton High School</span>
+                <span class="right"></span>
+            </div>
+            </div>
+            <ul>
+                <li>Set up 15 Cisco switches and routers; Used VMWare to run Debian, Docker, and applications.</li>
+                <li>Developed a WebSocket-based WireGuard VPN-wrapper in Golang to improve accessibility of resources beyond my school's firewall</li>
+		<li>Trained 9th graders with IT skills like rack mounting, making Ethernet cables, SSH, RDP, AD.</li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="employment">
+        <h2>Activities</h2>
+        <!--section>
+            <div class="jobtable">
+            <div class="tablerow">
+                <span class="jobtitle">Software Developer</span>
+                <span class="right">Aug 2023 - Present</span>
+            </div>
+            <div class="tablerow">
+                <span>IEEE Robotics and Automation Society - Vex U Competition</span>
+                <span class="right">UT Austin</span>
+            </div>
+            </div>
+            <ul>
+                <li>Learning the stack: ROS, Jetson Nano, Ubuntu, CMake, Intel Realsense Depth Camera, C++, Python</li>
+            </ul>
+        </section-->
+        <section>
+            <div class="jobtable">
+            <div class="tablerow">
+                <span class="jobtitle">Team Lead</span>
+                <span class="right">2022-23</span>
+            </div>
+  <!--div class="tablerow">
+                <span class="jobtitle">Programmer</span>
+                <span class="right">2021-22</span>
+            </div-->
+            <div class="tablerow">
+                <span>Vex Robotics Competition</span>
+                <span class="right">High School</span>
+            </div>
+            </div>
+            <ul>
+		<li>Architected a complex C++ program for coordinating subsystems in a real-time operating system</li>
+                <li>Analyzed camera inputs, gyroscopes, motor encoders, distance, and color sensors to extract useful information; Implemented autonomy algorithms to correct robot behavior.</li>
+		<li>Guided younger students with no previous robotics experience to be competition-ready through coding and mechanism design practice</li>
+
+            </ul>
+        </section>
+       <!--section>
+            <div class="jobtable">
+  		<div class="tablerow">
+                <span class="jobtitle">BisonHackers</span>
+                <span class="right">2019-2022</span>
+            	</div>
+            	<div class="tablerow">
+                <span>Offensive security (CTF) Team</span>
+                <span class="right">High School</span>
+            	</div>
+            </div>
+            <ul>
+                <li>Highly ranked in red team competitions like CSAW RED (NYU), picoCTF (CMU), BCACTF and more </li>
+            </ul>
+        </section>
+    </section-->
+
+
+    <section id="employment">
+        <h2>Projects</h2>
+        <section>
+            <div class="jobtable">
+            <div class="tablerow">
+                <span class="jobtitle">Longhorn LED Level PCB</span>
+                <span class="right">Summer 2023</span>
+            </div>
+            </div>
+            <ul>
+                <li>Designed an ATmega328P-based, Arduino-compatible dev board, with inputs (accelerometer), outputs (Addressable LEDs), Li-ion charging, USB</li>
+		<li>Details and video: <a href="https://karmanyaah.malhotra.cc/projects/2023/09/sparkletilt/">k.malhotra.cc/projects/2023/09/sparkletilt/</a></li>
+                <li>Skills: KiCAD, PCB Design, Sensors, Arduino, C++, manufacturing cost optimization</li>
+            </ul>
+        </section>
+        <section>
+            <div class="jobtable">
+            <div class="tablerow">
+                <span class="jobtitle">Hot Dog - A Programmable Flamethrower</span>
+                <span class="right">July 2023</span>
+            </div>
+            <div class="tablerow">
+                <span>Hack Club</span>
+                <span class="right">Outernet Hackathon</span>
+            </div>
+            </div>
+            <ul>
+                <li>Rapidly prototyped and developed a pyrotechnic toy in 42 hours from ideation to demo</li>
+                <li>Collaborated with a team of 5 under time pressure to test various fuel dispensing mechanisms, user inputs, ignition, controls, and backup plans</li>
+		<li>Built and coded a safe, Arduino-controlled, battery powered, motor driver and HVAC source</li>
+		<li>Videos and further information: <a href="https://karmanyaah.malhotra.cc/projects/2023/09/hotdog/">k.malhotra.cc/projects/2023/09/hotdog/</a></li>
+            </ul>
+        </section>
+        <section>
+            <div class="jobtable">
+            <div class="tablerow">
+                <span class="jobtitle">Discord - GroupMe Chat bridge</span>
+                <span class="right">December 2020</span>
+            </div>
+	    </div>
+            <ul>
+                <li>Syncs messages between various data sources while appearing native to the platform</li>
+                <li>Reliably operating for over 2 years on a Debian server with no maintenance</li>
+		<li><a href="https://github.com/karmanyaahm/groupme_discord_bridge_v3">github.com/karmanyaahm/groupme_discord_bridge_v3</a></li>
+		<li>Skills: API interaction, Golang, data processing</li>
+            </ul>
+        </section>
+    </section>
+
+    <p style="margin-left: 0;">
+    <b>Familiar with:</b> Javascript, React, NodeJS, npm, TypeScript, Python, Java, C++, Dart, Flutter
+    </p>
+    <div class="pagebreak"></div>
+    <!--section id="skills">
+        <h2>Experience</h2>
+        <div class="skillstable">
+            <div class="tablerow">
+                <ul class="cell">
+			<li><b>Self-Hosting</b></li>
+                    <li>Docker</li>
+                    <li>MQTT</li>
+                    <li>Cloud VMs (Linode, GCP, Oracle)</li>
+                    <li>Serverless (AppEngine, Netlify, GitHub Pages)</li>
+                    <li>Ansible</li>
+                    <li>NixOS</li>
+                    <li>Debian</li>
+                    <li>Raspberry Pi OS</li>
+                </ul>
+               
+ <ul class="cell">
+                    <li>Single-board computers (Raspberry Pi Zero, Orange Pi Zero)</li>
+                    <li>Arduino</li>
+                    <li>PCB Design</li>
+                    <li>Microcontrollers (RP2040, nrf52840, ESP32, ATMega328P)</li>
+                    <li>BLE</li>
+                    <li>JLCPCB</li>
+                    <li>EasyEDA</li>
+                    <li>KiCAD</li>
+                </ul>
+ <ul class="cell">
+			<li><b>Familiar with:</b></li>
+                    <li>Javascript</li>
+                    <li>npm</li>
+                    <li>NodeJS</li>
+                    <li>Deno</li>
+                    <li>React</li>
+                </ul>
+            </div>
+        </div>
+    </section-->
+ 
+    <!--section id="online">
+        <h2>Online</h2>
+        <div class="table">
+            <div class="tablerow">
+                <span class="onlinecell">Blog:</span>
+                <span class="urlcell">www.myblogorrificblogosite.net</span>
+            </div>
+            <div class="tablerow">
+                <span class="onlinecell">GitHub:</span>
+                <span class="urlcell">www.github.com/octocat</span>
+            </div>
+        </div>
+    </section-->
+    <div class="pagebreak"></div>
+    <!--section class="coverletter" id="coverletter">
+        <p>Dear Company,</p>
+        <p>Look again at that dot. That's here. That's home. That's us. On it
+           everyone you love, everyone you know, everyone you ever heard of,
+           every human being who ever was, lived out their lives.
+           The aggregate of our joy and suffering, thousands of confident
+           religions, ideologies, and economic doctrines, every hunter and
+           forager, every hero and coward, every creator and destroyer of
+           civilization, every king and peasant, every young couple in love,
+           every mother and father, hopeful child, inventor and explorer,
+           every teacher of morals, every corrupt politician,
+           every "superstar," every "supreme leader," every saint and
+           sinner in the history of our species lived there--on a mote
+           of dust suspended in a sunbeam.</p>
+
+        <p>First, I believe that this nation should commit itself to
+           achieving the goal, before this decade is out, of landing
+           a man on the moon and returning him safely to the earth.
+           No single space project in this period will be more
+           impressive to mankind, or more important for the long-range
+           exploration of space; and none will be so difficult or
+           expensive to accomplish.</p>
+
+        <p>The Earth is a very small stage in a vast cosmic arena. Think of
+           the rivers of blood spilled by all those generals and emperors so
+           that, in glory and triumph, they could become the momentary masters
+           of a fraction of a dot. Think of the endless cruelties visited by
+           the inhabitants of one corner of this pixel on the scarcely
+           distinguishable inhabitants of some other corner, how frequent
+           their misunderstandings, how eager they are to kill one another,
+           how fervent their hatreds.</p>
+
+        <p>We choose to go to the moon. We choose to go to the moon in this
+           decade and do the other things, not because they are easy, but
+           because they are hard, because that goal will serve to organize and
+           measure the best of our energies and skills, because that challenge
+           is one that we are willing to accept, one we are unwilling to
+           postpone, and one which we intend to win, and the others, too.</p>
+
+        <p>The surface is fine and powdery. I can kick it up loosely with my
+           toe. It does adhere in fine layers, like powdered charcoal, to the
+           sole and sides of my boots. I only go in a small fraction of an
+           inch, maybe an eighth of an inch, but I can see the footprints of
+           my boots and the treads in the fine, sandy particles. There seems
+           to be no difficult in moving around, as we suspected.</p>
+
+        <p>The view of the Earth from the Moon fascinated me-a small disk,
+           240,000 miles away. It was hard to think that that little thing
+           held so many problems, so many frustrations.
+           Raging nationalistic interests, famines, wars,
+           pestilence don't show from that distance.</p>
+        <p>Sincerely,</p>
+        <p>First M. Last</p>
+    </section-->
+</body>
+</html>

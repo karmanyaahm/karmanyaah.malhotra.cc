@@ -8,10 +8,14 @@ title: Portfolio of Work
 This is my overly detailed portfolio, detailing basically everything I have made ever (that is worth sharing). Items with a ⭐ are important.
 Roughly reverse chronological within each category.
 
-## Art/Modeling
+## Hardware Art/Fun
 
 
 <div class="extended-image-list">
+{% capture postlink %}{% post_url 2023-09-15-hotdog/2023-09-15-hotdog %}{% endcapture %}
+{% include imagebox.html url=postlink img="/assets/images/projects/art-hotdog-1.jpg" width="20rem" title="Hot Dog - A Programmable Toy Flamethrower" %}
+{% capture postlink %}{% post_url 2023-09-15-sparkletilt/2023-09-15-sparkletilt %}{% endcapture %}
+{% include imagebox.html url=postlink img="/assets/images/projects/art-sparkletilt-1.webp" width="20rem" title="Longhorn LED Level PCB" %}
 {% include imagebox.html url="https://www.youtube.com/watch?v=JgKoxJk2LYw" img="/assets/images/projects/art-parkinglot-1.webp" width="20rem" title="Model Parking lot with addressable LEDs" %}
 {% include imagebox.html url="https://www.youtube.com/watch?v=tMav6zECKzA" img="/assets/images/projects/art-wirefield-1.webp" width="20rem" title="Model Tipping Point field with lights and team song" %}
 {% capture postlink %}{% post_url 2023-04-29-amplitie/2023-04-29-amplitie %}{% endcapture %}
